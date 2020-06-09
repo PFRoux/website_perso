@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teachings on Easy as ATCG</title>
+    <link>/teaching/</link>
+    <description>Recent content in Teachings on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In silico and statistical analyses of epigenomic data with UNIX and R</title>
+      <link>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</guid>
+      <description>To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by Agrocampus Ouest - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+The workshop dedicated to ChIP-seq analysis address the following topics:</description>
+    </item>
+    
+    <item>
+      <title>In silico in-depth analyses of transcriptomic data with UNIX</title>
+      <link>/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/</guid>
+      <description>To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by Agrocampus Ouest - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+The workshop dedicated to RNA-seq analysis address the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Visualisation of genomic data with ggplot</title>
+      <link>/teaching/visualisation-of-genomic-data-with-r-ggplot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/visualisation-of-genomic-data-with-r-ggplot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

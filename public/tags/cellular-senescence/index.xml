@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cellular senescence on Easy as ATCG</title>
+    <link>/tags/cellular-senescence/</link>
+    <description>Recent content in Cellular senescence on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/cellular-senescence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Toward a systems view of cellular senescence</title>
+      <link>/project/toward-a-systems-view-of-cellular-senescence/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/project/toward-a-systems-view-of-cellular-senescence/</guid>
+      <description>Cellular senescence is a response to nonlethal stress that results in a persistent and often extremely stable cell cycle arrest. Among the most prominent intrinsic stimuli that induce a senescence response are genomic and epigenomic perturbations many of which can initiate or promote aging and age-related diseases. The underlying mechanisms for these perturbations are largely unknown. Senescence-inducing stimuli include progressive telomere shortening (replicative senescence) but also other stimuli that by-and-large do not impact telomere integrity such as oncogenic signaling (oncogene-induced senescence), DNA damage, oxidative stress and cytokines among others.</description>
+    </item>
+    
+  </channel>
+</rss>

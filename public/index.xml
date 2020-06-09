@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Easy as ATCG on Easy as ATCG</title>
+    <link>/</link>
+    <description>Recent content in Easy as ATCG on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Necroptosis microenvironment directs lineage commitment in liver cancer</title>
+      <link>/publication/necroptosis-microenvironment-directs-lineage-commitment-in-liver-cancer/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/necroptosis-microenvironment-directs-lineage-commitment-in-liver-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Toward a systems view of cellular senescence</title>
+      <link>/project/toward-a-systems-view-of-cellular-senescence/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/project/toward-a-systems-view-of-cellular-senescence/</guid>
+      <description>&lt;p&gt;Cellular senescence is a response to nonlethal stress that results in a persistent and often extremely stable cell cycle arrest. Among the most prominent intrinsic stimuli that induce a senescence response are genomic and epigenomic perturbations many of which can initiate or promote aging and age-related diseases. The underlying mechanisms for these perturbations are largely unknown. Senescence-inducing stimuli include progressive telomere shortening (replicative senescence) but also other stimuli that by-and-large do not impact telomere integrity such as oncogenic signaling (oncogene-induced senescence), DNA damage, oxidative stress and cytokines among others. Cultured cells usually reach senescence within several days to weeks after exposure to senescence-inducing stressors, but once arrested, they remain viable for years thereafter. To date, most studies have ignored the temporal and hierarchical evolution of senescence. However, a clear understanding of the gene regulatory modules that execute and maintain senescence will only emerge through the temporal characterization of the process. A dynamic characterization of senescence-specific gene modules and chromatin structure will reveal the nature of pathways that are activated at each stage and is thus instrumental to infer causality, to identify potential chromatin-based molecular clocks and to reveal liabilities for targeted elimination.&lt;/p&gt;
+
+&lt;p&gt;Addressing these challenges will be critical to develop strategies for the specific elimination of senescent cells in aging and age-related pathologies as well as for reprogramming of senescence clocks. The research I am developping in Oliver Bischof’s group aims at bridging these important knowledge gaps, charting the senescence-associated evolution and dynamics of transcription factor binding and epigenomic marks, the implications of these on gene regulation and their potential influence in patho-physiology.&lt;/p&gt;
+
+&lt;p&gt;Focusing so far on oncogene-induced senescence, we probe the evolution of fibroblasts experiencing senescence using genomic approach depicting altogether the histone modification landscape (ChIP-seq for H3K4me1, H3K4me3, H3K27ac, H3K27me3), the chromatin landscape (ATAC-seq), and the transcriptionnal landscape. To deal with the the temporal and multilevel complexity of the data generated, we developped a multi-omic integrative workflow implementing cuting edge approaches for epigenomic data integration, systems biology, dimensionality reduction and variable selection  (self-organizing maps, permutation entropy, chromatin state differential analysis, chromatin digital footprinting, sparse projection to latent structure discriminant analysis) summarized in the Figure 1. The information obtained can further being processed using networking approaches to understand the senescence transcriptomic dynamic in the light of epigenetic changes and transcription factor hierarchies.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/Figure_Senescence_project.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Workflow for temporal multi-omic data integration.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-tissue transcriptomic study reveals the main role of liver in the chicken adaptive response to a switch in dietary energy source through the transcriptional regulation of lipogenesis</title>
+      <link>/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-tissue transcriptomic study reveals the main role of liver in the chicken adaptive response to a switch in dietary energy source through the transcriptional regulation of lipogenesis</title>
+      <link>/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot: cellular senescence in pathophysiology</title>
+      <link>/publication/snapshot-cellular-senescence-in-pathophysiology/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/snapshot-cellular-senescence-in-pathophysiology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot: cellular senescence pathways</title>
+      <link>/publication/snapshot-cellular-senescence-pathways/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/snapshot-cellular-senescence-pathways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human platelet lysate versus fetal calf serum: these supplements do not select for different mesenchymal stromal sells</title>
+      <link>/publication/human-platelet-lysate-versus-fetal-calf-serum-these-supplements-do-not-select-for-different-mesenchymal-stromal-sells/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/human-platelet-lysate-versus-fetal-calf-serum-these-supplements-do-not-select-for-different-mesenchymal-stromal-sells/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome-wide characterization of RNA editing in chicken embryos reveals common features among vertebrates</title>
+      <link>/publication/genome-wide-characterization-of-rna-editing-in-chicken-embryos-reveals-common-features-among-vertebrates/</link>
+      <pubDate>Mon, 29 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/genome-wide-characterization-of-rna-editing-in-chicken-embryos-reveals-common-features-among-vertebrates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histone variant H2A.J accumulates in senescent cells and promotes inflammatory gene expression</title>
+      <link>/publication/histone-variant-h2a.j-accumulates-in-senescent-cells-and-promotes-inflammatory-gene-expression/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/histone-variant-h2a.j-accumulates-in-senescent-cells-and-promotes-inflammatory-gene-expression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcriptomes of whole blood and PBMC in chicken</title>
+      <link>/publication/transcriptomes-of-whole-blood-and-pbmc-in-chicken/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/transcriptomes-of-whole-blood-and-pbmc-in-chicken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combined DNA and RNA sequencing for RNA editing event discovery</title>
+      <link>/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/</guid>
+      <description>&lt;p&gt;RNA editing has become a generic term for a wide array of post-transcriptional processes that change the mature RNA sequence relative to the corresponding encoding genomic DNA matrix. This phenomenon, which is almost limited to eukaryotes with some exceptions, is characterized by nucleotide insertion, deletion, or substitution in various types of RNAs including mRNAs, tRNAs, miRNAs, and rRNAs , and is likely to contribute to RNA diversity. Until recently, this mechanism was considered relatively rare in vertebrates, mainly restricted to brain-specific substrates and repetitive regions of the genome, and limited to extensively validated ADAR-mediated adenosine to inosine (A-to-I) substitutions and APOBEC-mediated cytosine to uracil (C-to-U) changes.&lt;/p&gt;
+
+&lt;p&gt;Since 2009, the advent of high-throughput sequencing technologies has enabled the study of this phenomenon at a transcriptome-wide scale and progressively challenged this view, with estimates ranging from several hundred to several thousand, and even millions of mRNA edited sites throughout mammalian genomes. According to some of these mRNA editing screening studies, mRNA recoding is an extremely common process that greatly contributes to transcript diversity. Furthermore, most of these studies report mRNA editing events leading to transversions that cannot be explained in the light of our current knowledge regarding the molecular bases of mRNA recoding, suggesting the existence of currently uncharacterized mRNA editing mechanisms and novel molecular components implied in gene expression regulation. The conclusions raised by these studies regarding the extent and nature of mRNA recoding, if further supported, would deeply impact our understanding of gene expression regulation and transcriptional modification.&lt;/p&gt;
+
+&lt;p&gt;Facing contradictory results regarding the extent of mRNA editing, a large number of studies and comments have pointed to the requirement for comprehensive and rigorous bioinformatics pipelines to limit technical artifacts in editome characterization. Working with short-read sequencing data for the detection of polymorphisms requires careful dealing with technical artifacts related to mapping on paralogous or repetitive regions, mapping errors at splice sites, or systematic and random sequencing errors&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This is especially the case when screening for mRNA editing events, since all of these artifacts are likely to generate artificial discrepancies between genomic DNA and mRNA further interpreted as edited sites. In this context, the huge variation regarding the extent of intratissue and intraspecies mRNA editing revealed in the literature could be in part due to the varying level of stringency of bioinformatics filters used to control these error prone artifacts, and whether biological replication is considered or not.&lt;/p&gt;
+
+&lt;p&gt;In the scope of this project, we developped a rigorous strategy summarized in Figure 1 to identify mRNA editing using both mRNA and genomic DNA high-throughput sequencing, taking into account sequencing and mapping artifacts, as well as biological replicates, to control the false positive rate. To strictly control multimapping, we looked for mRNA sequences spanning edited sites in unmapped genomic DNA sequences, allowing the consideration of potential errors and gaps in the reference assembly that still represent roughly 15% of the chicken genome.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/Figure_RNA_editing_project.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Impact of sequencing and mapping biases on mRNA editing discovery. Contribution of random or systematic sequencing biases and mapping artifacts to the false discovery of mRNA editing events using combined mRNA and DNA sequencings are given as a fraction (%) of the intial pool of candidate editing events subject to each source of bias in each tissue. WAT, white adipose tissue.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;For a comprehensive overview the scientific debate around the extend of mRNA editing, please refer to &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/22022455?dopt=Abstract&#34; target=&#34;_blank&#34;&gt;Schrider et al. 2011&lt;/a&gt;, &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/22422962&#34; target=&#34;_blank&#34;&gt;Kleinman and Majewski 2012&lt;/a&gt;, &lt;a href=&#34;http://science.sciencemag.org/content/335/6074/1302.5&#34; target=&#34;_blank&#34;&gt;Lin et al. 2012&lt;/a&gt;, &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3425774/&#34; target=&#34;_blank&#34;&gt;Kleinman et al. 2012&lt;/a&gt;, &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23302925&#34; target=&#34;_blank&#34;&gt;Piskol et al. 2013&lt;/a&gt;, &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23410828&#34; target=&#34;_blank&#34;&gt;Lagarrigue et al. 2013&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In silico and statistical analyses of epigenomic data with UNIX and R</title>
+      <link>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</guid>
+      <description>&lt;p&gt;To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by &lt;a href=&#34;http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/&#34; target=&#34;_blank&#34;&gt;Agrocampus Ouest&lt;/a&gt; - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.&lt;/p&gt;
+
+&lt;p&gt;The workshop dedicated to ChIP-seq analysis address the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction to epigenome screening technologies (ChIP-seq, ATAC-seq, MNase-seq &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Biases and noise in sequencing data&lt;/li&gt;
+&lt;li&gt;Introduction to UNIX environment and Bash scripting&lt;/li&gt;
+&lt;li&gt;Work on a cluster with job schedulers (SLURM and SGE)&lt;/li&gt;
+&lt;li&gt;Use parallel environments&lt;/li&gt;
+&lt;li&gt;Use genomic databases (Ensembl, UCSC)&lt;/li&gt;
+&lt;li&gt;Quality check of ChIP-seq data&lt;/li&gt;
+&lt;li&gt;Pre-processing and alignment of ChIP-seq data&lt;/li&gt;
+&lt;li&gt;Peak calling&lt;/li&gt;
+&lt;li&gt;Irreproducible discovery rate&lt;/li&gt;
+&lt;li&gt;Use of R Bioconductor for functional genomics&lt;/li&gt;
+&lt;li&gt;Normalization strategies for epigenomic assays (RPM, TMM, Lowess)&lt;/li&gt;
+&lt;li&gt;Functional enrichment for epigenomic assays&lt;/li&gt;
+&lt;li&gt;Motif enrichement analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below, you will find slides from our last ChIP-seq workshop (&lt;em&gt;in french&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Day 1&lt;/strong&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;7815e4704cc34aa086bc8eff4ec8b36e&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Day 2&lt;/strong&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;785d1031571840edb403807585c82bb9&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bioconductor guide for ChIP-seq analysis&lt;/strong&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;6c84a410aa0a4fc7a2dfb7dc3a8087ed&#34; data-ratio=&#34;0.772830188679245&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>In silico in-depth analyses of transcriptomic data with UNIX</title>
+      <link>/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/</guid>
+      <description>&lt;p&gt;To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by &lt;a href=&#34;http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/&#34; target=&#34;_blank&#34;&gt;Agrocampus Ouest&lt;/a&gt; - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.&lt;/p&gt;
+
+&lt;p&gt;The workshop dedicated to RNA-seq analysis address the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction to UNIX environment and Bash scripting&lt;/li&gt;
+&lt;li&gt;Work on a cluster with job schedulers (SLURM and SGE)&lt;/li&gt;
+&lt;li&gt;Use parallel environments&lt;/li&gt;
+&lt;li&gt;Use genomic databases (Ensembl, UCSC)&lt;/li&gt;
+&lt;li&gt;Quality check of RNA-seq data&lt;/li&gt;
+&lt;li&gt;Pre-processing and alignment of RNA-seq data&lt;/li&gt;
+&lt;li&gt;Variant calling on RNA-seq data&lt;/li&gt;
+&lt;li&gt;Infer transcript models from RNA-seq data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below, you will find slides from our last RNA-seq workshop (&lt;em&gt;in french&lt;/em&gt;).&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;9bd15966e78e42b8a95a7260f4b2d924&#34; data-ratio=&#34;1.41436464088398&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes</title>
+      <link>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</guid>
+      <description>&lt;p&gt;The ultimate goal of quantitative trait loci (QTL) mapping approaches is to gain a better understanding of biological mechanisms involved in these phenotypes to offer molecular tools for medical diagnosis or animal selection. Over the past three decades, several thousand QTL have been mapped for different traits in many species. In this context, whereas genome-wide association study is developing as the reference QTL mapping method for human populations, most of the QTL referenced today in experimental or livestock species were mapped by linkage analysis approaches through F2 genetic crosses. This is especially the case for species such as chicken, for which the individual production is inexpensive; in this case, for each phenotype of interest, divergent lines are usually created to maximize QTL heterozygosity after crossing parental lines. To date, 4714 QTL have been referenced in the Mouse Genome Database and 8006, 8935, and 3923 QTL for cattle, pigs, and chickens, respectively, in the animal QTLdb database. The major weakness of QTL mapped with linkage analysis is their large size, usually in the range of several megabases (Mbs). These intervals may contain up to hundreds of genes, which impedes the identification of causal underlying genes. When dealing with these large genomic regions and the numerous positional candidate genes they contain, it is tempting to focus narrowly on functional candidates. Hence, many of the causal genes identified to date were already known as being functionally related to the complex trait, limiting the research scope.&lt;/p&gt;
+
+&lt;p&gt;To overcome these limitations, in collaboration with &lt;a href=&#34;https://genphyse.toulouse.inra.fr/people/boitard/simon&#34; target=&#34;_blank&#34;&gt;Simon Boitard&lt;/a&gt;, I developped an approach combining signature selection mapping with hapFLK&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;in divergent lines for one complex trait, cis-eQTL analysis and single nucleotide polymorphisms (SNPs) annotation in coding regions by using DNA-seq and improve identification of causal genes underlying QTL regions with no presupposed function.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/Figure_QTL_project.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Overview of the strategy used to combine WGS and QTL mapping. QTL: quantitative trait locus; cis-eQTL: QTL for gene expression and acting in cis; ASE: allele-specific expression; VeP: Variant Effect Predictor tool from the Ensembl API; NGS-SNP: variant annotation tool; GWAS: genome-wide association study; HMDP: Hybrid Mouse Diversity Panel.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;For more details on hapFLK method, please refer to &lt;a href=&#34;http://www.genetics.org/content/early/2013/01/07/genetics.112.147231&#34; target=&#34;_blank&#34;&gt;Fariello et al. 2013&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WGS and QTLs on Easy as ATCG</title>
+    <link>/tags/wgs-and-qtls/</link>
+    <description>Recent content in WGS and QTLs on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/wgs-and-qtls/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes</title>
+      <link>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</guid>
+      <description>The ultimate goal of quantitative trait loci (QTL) mapping approaches is to gain a better understanding of biological mechanisms involved in these phenotypes to offer molecular tools for medical diagnosis or animal selection. Over the past three decades, several thousand QTL have been mapped for different traits in many species. In this context, whereas genome-wide association study is developing as the reference QTL mapping method for human populations, most of the QTL referenced today in experimental or livestock species were mapped by linkage analysis approaches through F2 genetic crosses.</description>
+    </item>
+    
+  </channel>
+</rss>

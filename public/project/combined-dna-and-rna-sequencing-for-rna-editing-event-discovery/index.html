@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42.2" />
+  <meta name="author" content="Pierre-François Roux">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="RNA editing has become a generic term for a wide array of post-transcriptional processes that change the mature RNA sequence relative to the corresponding encoding genomic DNA matrix. This phenomenon, which is almost limited to eukaryotes with some exceptions, is characterized by nucleotide insertion, deletion, or substitution in various types of RNAs including mRNAs, tRNAs, miRNAs, and rRNAs , and is likely to contribute to RNA diversity. Until recently, this mechanism was considered relatively rare in vertebrates, mainly restricted to brain-specific substrates and repetitive regions of the genome, and limited to extensively validated ADAR-mediated adenosine to inosine (A-to-I) substitutions and APOBEC-mediated cytosine to uracil (C-to-U) changes.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/orange.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-121890158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Easy as ATCG">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Easy as ATCG">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@Pef_Roux">
+  <meta property="twitter:creator" content="@Pef_Roux">
+  
+  <meta property="og:site_name" content="Easy as ATCG">
+  <meta property="og:url" content="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+  <meta property="og:title" content="Combined DNA and RNA sequencing for RNA editing event discovery | Easy as ATCG">
+  <meta property="og:description" content="RNA editing has become a generic term for a wide array of post-transcriptional processes that change the mature RNA sequence relative to the corresponding encoding genomic DNA matrix. This phenomenon, which is almost limited to eukaryotes with some exceptions, is characterized by nucleotide insertion, deletion, or substitution in various types of RNAs including mRNAs, tRNAs, miRNAs, and rRNAs , and is likely to contribute to RNA diversity. Until recently, this mechanism was considered relatively rare in vertebrates, mainly restricted to brain-specific substrates and repetitive regions of the genome, and limited to extensively validated ADAR-mediated adenosine to inosine (A-to-I) substitutions and APOBEC-mediated cytosine to uracil (C-to-U) changes."><meta property="og:image" content="/img/headers/bubbles-wide.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-04-27T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>Combined DNA and RNA sequencing for RNA editing event discovery | Easy as ATCG</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Easy as ATCG</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#photos">
+            
+            <span>Photos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/headers/bubbles-wide.jpg" class="article-banner" itemprop="image">
+  
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Combined DNA and RNA sequencing for RNA editing event discovery</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Combined%20DNA%20and%20RNA%20sequencing%20for%20RNA%20editing%20event%20discovery&amp;url=%2fproject%2fcombined-dna-and-rna-sequencing-for-rna-editing-event-discovery%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fproject%2fcombined-dna-and-rna-sequencing-for-rna-editing-event-discovery%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fcombined-dna-and-rna-sequencing-for-rna-editing-event-discovery%2f&amp;title=Combined%20DNA%20and%20RNA%20sequencing%20for%20RNA%20editing%20event%20discovery"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fproject%2fcombined-dna-and-rna-sequencing-for-rna-editing-event-discovery%2f&amp;title=Combined%20DNA%20and%20RNA%20sequencing%20for%20RNA%20editing%20event%20discovery"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Combined%20DNA%20and%20RNA%20sequencing%20for%20RNA%20editing%20event%20discovery&amp;body=%2fproject%2fcombined-dna-and-rna-sequencing-for-rna-editing-event-discovery%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      <p>RNA editing has become a generic term for a wide array of post-transcriptional processes that change the mature RNA sequence relative to the corresponding encoding genomic DNA matrix. This phenomenon, which is almost limited to eukaryotes with some exceptions, is characterized by nucleotide insertion, deletion, or substitution in various types of RNAs including mRNAs, tRNAs, miRNAs, and rRNAs , and is likely to contribute to RNA diversity. Until recently, this mechanism was considered relatively rare in vertebrates, mainly restricted to brain-specific substrates and repetitive regions of the genome, and limited to extensively validated ADAR-mediated adenosine to inosine (A-to-I) substitutions and APOBEC-mediated cytosine to uracil (C-to-U) changes.</p>
+
+<p>Since 2009, the advent of high-throughput sequencing technologies has enabled the study of this phenomenon at a transcriptome-wide scale and progressively challenged this view, with estimates ranging from several hundred to several thousand, and even millions of mRNA edited sites throughout mammalian genomes. According to some of these mRNA editing screening studies, mRNA recoding is an extremely common process that greatly contributes to transcript diversity. Furthermore, most of these studies report mRNA editing events leading to transversions that cannot be explained in the light of our current knowledge regarding the molecular bases of mRNA recoding, suggesting the existence of currently uncharacterized mRNA editing mechanisms and novel molecular components implied in gene expression regulation. The conclusions raised by these studies regarding the extent and nature of mRNA recoding, if further supported, would deeply impact our understanding of gene expression regulation and transcriptional modification.</p>
+
+<p>Facing contradictory results regarding the extent of mRNA editing, a large number of studies and comments have pointed to the requirement for comprehensive and rigorous bioinformatics pipelines to limit technical artifacts in editome characterization. Working with short-read sequencing data for the detection of polymorphisms requires careful dealing with technical artifacts related to mapping on paralogous or repetitive regions, mapping errors at splice sites, or systematic and random sequencing errors<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>. This is especially the case when screening for mRNA editing events, since all of these artifacts are likely to generate artificial discrepancies between genomic DNA and mRNA further interpreted as edited sites. In this context, the huge variation regarding the extent of intratissue and intraspecies mRNA editing revealed in the literature could be in part due to the varying level of stringency of bioinformatics filters used to control these error prone artifacts, and whether biological replication is considered or not.</p>
+
+<p>In the scope of this project, we developped a rigorous strategy summarized in Figure 1 to identify mRNA editing using both mRNA and genomic DNA high-throughput sequencing, taking into account sequencing and mapping artifacts, as well as biological replicates, to control the false positive rate. To strictly control multimapping, we looked for mRNA sequences spanning edited sites in unmapped genomic DNA sequences, allowing the consideration of potential errors and gaps in the reference assembly that still represent roughly 15% of the chicken genome.</p>
+
+<figure>
+
+<img src="/img/Figure_RNA_editing_project.jpg" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" class="numbered">
+  <h4>Impact of sequencing and mapping biases on mRNA editing discovery. Contribution of random or systematic sequencing biases and mapping artifacts to the false discovery of mRNA editing events using combined mRNA and DNA sequencings are given as a fraction (%) of the intial pool of candidate editing events subject to each source of bias in each tissue. WAT, white adipose tissue.</h4>
+  
+</figcaption>
+
+</figure>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">For a comprehensive overview the scientific debate around the extend of mRNA editing, please refer to <a href="https://www.ncbi.nlm.nih.gov/pubmed/22022455?dopt=Abstract" target="_blank">Schrider et al. 2011</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/22422962" target="_blank">Kleinman and Majewski 2012</a>, <a href="http://science.sciencemag.org/content/335/6074/1302.5" target="_blank">Lin et al. 2012</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3425774/" target="_blank">Kleinman et al. 2012</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/23302925" target="_blank">Piskol et al. 2013</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/23410828" target="_blank">Lagarrigue et al. 2013</a>
+ <a class="footnote-return" href="#fnref:1"><sup>^</sup></a></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/rna-editing/">RNA editing</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/rna-seq/">RNA-seq</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/dna-seq/">DNA-seq</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    L. Frésard, S. Leroux, P.F. Roux, C. Klopp, D. Esquerré, P. Dehais, A. Djari, D. Gourichon, S. Lagarrigue, F. Pitel</span>.
+  <a href="/publication/genome-wide-characterization-of-rna-editing-in-chicken-embryos-reveals-common-features-among-vertebrates/" itemprop="name">Genome-wide characterization of RNA editing in chicken embryos reveals common features among vertebrates</a>.
+  In <em>PLoS One</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.g3journal.org/content/ggg/6/2/321.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    P.F. Roux, L. Frésard, M. Boutin, S. Leroux, C. Klopp, A. Djari, D. Esquerré, P. Martin, T. Zerjal, D. Gourichon, F. Pitel, S. Lagarrigue</span>.
+  <a href="/publication/the-extent-of-mrna-editing-is-limited-in-chicken-liver-and-adipose-but-impacted-by-tissular-context-genotype-age-and-feeding-as-exemplified-with-a-conserved-edited-site-in-cog3/" itemprop="name">The extent of mRNA editing is limited in chicken liver and adipose, but impacted by tissular context, genotype, age and feeding as exemplified with a conserved edited site in COG3</a>.
+  In <em>Genes Genomes Genetics</em>,
+  2015.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.g3journal.org/content/ggg/6/2/321.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    S. Lagarrigue, L. Martin, F. Hormozdiari, P.F. Roux, A. van Nas, O. Demeure, A. Ghazalpour, E. Eskin, A.J. Lusis</span>.
+  <a href="/publication/analysis-of-allele-specific-expression-in-mouse-liver-by-rna-seq-a-comparison-with-cis-eqtl-identified-using-genetic-linkage/" itemprop="name">Analysis of allele-specific expression in mouse liver by RNA-seq: a comparison with cis-eQTL identified using genetic linkage</a>.
+  In <em>Genetics</em>,
+  2013.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.genetics.org/content/195/3/1157.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+<div class="article-container article-widget">
+  <div class="post-nav">
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/project/toward-a-systems-view-of-cellular-senescence/" rel="next">Toward a systems view of cellular senescence</a>
+  </div>
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/" rel="prev">Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Pierre-François Roux &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//www-pierre-francois-roux-com.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

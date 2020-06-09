@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ChIP-seq on Easy as ATCG</title>
+    <link>/tags/chip-seq/</link>
+    <description>Recent content in ChIP-seq on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/chip-seq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In silico and statistical analyses of epigenomic data with UNIX and R</title>
+      <link>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</guid>
+      <description>To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by Agrocampus Ouest - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+The workshop dedicated to ChIP-seq analysis address the following topics:</description>
+    </item>
+    
+  </channel>
+</rss>

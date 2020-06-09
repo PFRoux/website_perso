@@ -1,0 +1,1912 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42.2" />
+  <meta name="author" content="Pierre-François Roux">
+
+  
+  
+  
+  
+  <meta name="description" content="In silico biologist">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/orange.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-121890158-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Easy as ATCG">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Easy as ATCG">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@Pef_Roux">
+  <meta property="twitter:creator" content="@Pef_Roux">
+  
+  <meta property="og:site_name" content="Easy as ATCG">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Easy as ATCG">
+  <meta property="og:description" content="In silico biologist">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>Easy as ATCG</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Easy as ATCG</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected" data-target="#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching" data-target="#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#photos" data-target="#photos">
+            
+            <span>Photos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+
+
+
+<section id="hero" class="hero-overlay" style="
+
+background-color: #666;
+
+
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('/img/headers/bubbles-wide.jpg');
+
+;">
+
+  <div class="container">
+
+    <h1 class="hero-title" itemprop="headline">
+      Easy as ATCG
+    </h1>
+
+    
+
+    
+
+  </div>
+
+</section>
+
+  
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
+  <div class="col-xs-12 col-md-4">
+    <div id="profile">
+
+      
+      <div class="portrait" style="background-image: url('/img/portrait.png');"></div>
+      <meta itemprop="image" content="/img/portrait.png">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Pierre-François Roux</h2>
+        <h3 itemprop="jobTitle">In silico biologist</h3>
+
+        
+        
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.pasteur.fr/en" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Pasteur Institute - Paris</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="/">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:pierre-francois.roux@pasteur.fr" target="_blank" rel="noopener">
+            <i class="fa fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//www.linkedin.com/in/pierre-fran%c3%a7ois-roux-8b338834/?trk=public-profile-join-page" target="_blank" rel="noopener">
+            <i class="fa fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//twitter.com/Pef_Roux" target="_blank" rel="noopener">
+            <i class="fa fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//scholar.google.co.uk/citations?hl=fr&amp;user=9JKL8MgAAAAJ&amp;scilu=&amp;scisig=AMstHGQAAAAAWz3Wu02Ca220u55bbMlKz5IzXl7Qbyni&amp;gmla=AJsN-F6y_38Y4Rq2tDEAZb6RltUAlhIrMYGJloi7CLuCyO9Nu8gxIjGsxpBfOX8vudwkM45JDxDKOrsHYmJMDbgNDDdCayznPbzcdpwvk52kmtb1dv46bobmbjBgNDKGOOcgXJxrYgrGUCVWUAb7F05by7E4d58QTQ&amp;sciund=4623032493869354800" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//orcid.org/0000-0002-0695-4206" target="_blank" rel="noopener">
+            <i class="ai ai-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//www.researchgate.net/profile/Pierre_Francois_Roux" target="_blank" rel="noopener">
+            <i class="ai ai-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//www.mendeley.com/profiles/pierre-francois-roux/" target="_blank" rel="noopener">
+            <i class="ai ai-mendeley big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//github.com/PFRoux" target="_blank" rel="noopener">
+            <i class="fa fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-8" itemprop="description">
+
+    <p>I am a curious and eager to learn <em>in silico</em> biologist, enjoying adressing challenges related to the advent of high-throughput biotechnologies to answer always more complex and integrative questions to understand the eukaryotic gene expression regulation.</p>
+
+<p>I am now working at the Institut Pasteur - Paris as a postdoctoral fellow, in the unit <a href="https://research.pasteur.fr/com/team/nuclear-organization-and-oncogenesis/" target="_blank">Nuclear Organization and Oncogenesis</a> headed by Anne Dejean.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-sm-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Genomics</li>
+          
+          <li>Epigenomics</li>
+          
+          <li>Computational biology</li>
+          
+          <li>Next generation sequencing</li>
+          
+          <li>Systems biology</li>
+          
+          <li>Cellular senescence</li>
+          
+          <li>Cancer biology</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-sm-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Genetics and Genomics, 2014</p>
+              <p class="institution">Agrocampus Ouest, Rennes, France</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MEng in Agronomical Science, 2011</p>
+              <p class="institution">Agrocampus Ouest, Rennes, France</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in Cell and Molecular Biology, 2011</p>
+              <p class="institution">Université Rennes 1, Rennes, France</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in Environment and Oceanology, 2009</p>
+              <p class="institution">Université des Sciences et Technologies, Lille, France</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+      
+      <div class="col-sm-5">
+          <h3>Hobbies</h3>
+          <ul class="ul-interests">
+            
+            <li>Photography</li>
+            
+            <li>Drawing</li>
+            
+            <li>Scuba diving</li>
+            
+            <li>Botany</li>
+            
+            <li>Traveling</li>
+            
+       </ul>
+      </div>
+      
+      
+      
+      <div class="col-sm-7">
+          <h3>CNU</h3>
+          <ul class="ul-interests">
+            
+            <li>CNU 64: biochemistry and molecular biology</li>
+            
+            <li>CNU 65: cell biology</li>
+            
+       </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications_selected" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Selected Publications</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+    
+
+    
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/necroptosis-microenvironment-directs-lineage-commitment-in-liver-cancer/" itemprop="url">Necroptosis microenvironment directs lineage commitment in liver cancer</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    Primary liver cancer represents a major health problem. It comprises hepatocellular carcinoma (HCC) and intrahepatic cholangiocarcinoma (ICC), which differ markedly with regards to their morphology, metastatic potential and responses to therapy. However, the regulatory molecules and tissue context that commit transformed hepatic cells towards HCC or ICC are largely unknown. Here we show that the hepatic microenvironment epigenetically shapes lineage commitment in mosaic mouse models of liver tumorigenesis. Whereas a necroptosis-associated hepatic cytokine microenvironment determines ICC outgrowth from oncogenically transformed hepatocytes, hepatocytes containing identical oncogenic drivers give rise to HCC if they are surrounded by apoptotic hepatocytes. Epigenome and transcriptome profiling of mouse HCC and ICC singled out Tbx3 and Prdm5 as major microenvironment-dependent and epigenetically regulated lineage-commitment factors, a function that is conserved in humans. Together, our results provide insight into lineage commitment in liver tumorigenesis, and explain molecularly why common liver-damaging risk factors can lead to either HCC or ICC.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    M. Seehawer, F. Heinzmann, L. D’Artista, P.F. Roux, L. Hoenicke, H. Dang, S. Klotz, L. Robinson, G. Doré, N. Rozenblum, T.W. Kang, R. Chawla, T. Buch, M. Vucur, M. Roth, J. Zuber, T.Luedde, B. Sipos, T. Longerich, M. Heikenwälder, X.W. Wang, O. Bischof, L. Zender
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Nature</em>,
+    
+    2018
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.nature.com/articles/s41586-018-0519-y" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/snapshot-cellular-senescence-in-pathophysiology/" itemprop="url">Snapshot: cellular senescence in pathophysiology</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    Cellular senescence is a fundamental cell fate, important both in physiological and pathophysiological processes. This SnapShot focuses on the role of cellular senescence in health, disease, and aging.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    R. Martínez-Zamudio, L. Robinson, P.F. Roux, O. Bischof
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Cell</em>,
+    
+    2017
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0092867417309509/pdf?md5=96a0686f34e1d06e581970b6658ea534&amp;pid=1-s2.0-S0092867417309509-main.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/toward-a-systems-view-of-cellular-senescence/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/snapshot-cellular-senescence-pathways/" itemprop="url">Snapshot: cellular senescence pathways</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    Cellular senescence is a fundamental cell fate, playing important physiological and pathophysiological roles. This SnapShot focuses on major signaling pathways and transcriptional control mechanisms that consolidate the senescence phenotype.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    R. Martínez-Zamudio, L. Robinson, P.F. Roux, O. Bischof
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Cell</em>,
+    
+    2017
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0092867417308863/pdf?md5=b30d96e074a72a1df42ea957c175be74&amp;pid=1-s2.0-S0092867417308863-main.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/toward-a-systems-view-of-cellular-senescence/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/the-extent-of-mrna-editing-is-limited-in-chicken-liver-and-adipose-but-impacted-by-tissular-context-genotype-age-and-feeding-as-exemplified-with-a-conserved-edited-site-in-cog3/" itemprop="url">The extent of mRNA editing is limited in chicken liver and adipose, but impacted by tissular context, genotype, age and feeding as exemplified with a conserved edited site in COG3</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    RNA editing is a posttranscriptional process leading to differences between genomic DNA and transcript sequences, potentially enhancing transcriptome diversity. With recent advances in high-throughput sequencing, many efforts have been made to describe mRNA editing at the transcriptome scale, especially in mammals, yielding contradictory conclusions regarding the extent of this phenomenon. We show, by detailed description of the 25 studies focusing so far on mRNA editing at the whole-transcriptome scale, that systematic sequencing artifacts are considered in most studies whereas biological replication is often neglected and multi-alignment not properly evaluated, which ultimately impairs the legitimacy of results. We recently developed a rigorous strategy to identify mRNA editing using mRNA and genomic DNA sequencing, taking into account sequencing and mapping artifacts, and biological replicates. We applied this method to screen for mRNA editing in liver and white adipose tissue from eight chickens and confirm the small extent of mRNA recoding in this species. Among the 25 unique edited sites identified, three events were previously described in mammals, attesting that this phenomenon is conserved throughout evolution. Deeper investigations on five sites revealed the impact of tissular context, genotype, age, feeding conditions, and sex on mRNA editing levels. More specifically, this analysis highlighted that the editing level at the site located on COG3 was strongly regulated by four of these factors. By comprehensively characterizing the mRNA editing landscape in chickens, our results highlight how this phenomenon is limited and suggest regulation of editing levels by various genetic and environmental factors.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    P.F. Roux, L. Frésard, M. Boutin, S. Leroux, C. Klopp, A. Djari, D. Esquerré, P. Martin, T. Zerjal, D. Gourichon, F. Pitel, S. Lagarrigue
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Genes Genomes Genetics</em>,
+    
+    2015
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.g3journal.org/content/ggg/6/2/321.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/combined-qtl-and-selective-sweep-mappings-with-coding-snp-annotation-and-cis-eqtl-analysis-revealed-park2-and-jag2-as-new-candidate-genes-for-adiposity-regulation/" itemprop="url">Combined QTL and selective sweep mappings with coding SNP annotation and cis-eQTL analysis revealed PARK2 and JAG2 as new candidate genes for adiposity regulation</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    Very few causal genes have been identified by quantitative trait loci (QTL) mapping because of the large size of QTL, and most of them were identified thanks to functional links already known with the targeted phenotype. Here, we propose to combine selection signature detection, coding SNP annotation, and cis-expression QTL analyses to identify potential causal genes underlying QTL identified in divergent line designs. As a model, we chose experimental chicken lines divergently selected for only one trait, the abdominal fat weight, in which several QTL were previously mapped. Using new haplotype-based statistics exploiting the very high SNP density generated through whole-genome resequencing, we found 129 significant selective sweeps. Most of the QTL colocalized with at least one sweep, which markedly narrowed candidate region size. Some of those sweeps contained only one gene, therefore making them strong positional causal candidates with no presupposed function. We then focused on two of these QTL/sweeps. The absence of nonsynonymous SNPs in their coding regions strongly suggests the existence of causal mutations acting in cis on their expression, confirmed by cis-eQTL identification using either allele-specific expression or genetic mapping analyses. Additional expression analyses of those two genes in the chicken and mice contrasted for adiposity reinforces their link with this phenotype. This study shows for the first time the interest of combining selective sweeps mapping, coding SNP annotation and cis-eQTL analyses for identifying causative genes for a complex trait, in the context of divergent lines selected for this specific trait. Moreover, it highlights two genes, JAG2 and PARK2, as new potential negative and positive key regulators of adiposity in chicken and mice.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    P.F. Roux, S. Boitard, Y. Blum, B. Parks, A. Montagner, E. Mouisel, A. Djari, D. Esquerré, C. Désert, M. Boutin, S. Leroux, F. Lecerf, E. Le Bihan - Duval, C. Klopp, B. Servin, F. Pitel, M. Duclos, H. Guillou, A.J. Lusis, O. Demeure, S. Lagarrigue
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Genes Genomes Genetics</em>,
+    
+    2015
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.g3journal.org/content/ggg/5/4/517.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+      
+        <div class="pub-list-item card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+  
+
+  <h3 class="article-title" itemprop="name">
+    <a href="/publication/analysis-of-allele-specific-expression-in-mouse-liver-by-rna-seq-a-comparison-with-cis-eqtl-identified-using-genetic-linkage/" itemprop="url">Analysis of allele-specific expression in mouse liver by RNA-seq: a comparison with cis-eQTL identified using genetic linkage</a>
+  </h3>
+
+  <div class="pub-abstract" itemprop="text">
+    
+    We report an analysis of allele-specific expression (ASE) and parent-of-origin expression in adult mouse liver using next generation sequencing (RNA-Seq) of reciprocal crosses of heterozygous F1 mice from the parental strains C57BL/6J and DBA/2J. We found a 60% overlap between genes exhibiting ASE and putative cis-acting expression quantitative trait loci (cis-eQTL) identified in an intercross between the same strains. We discuss the various biological and technical factors that contribute to the differences. We also identify genes exhibiting parental imprinting and complex expression patterns. Our study demonstrates the importance of biological replicates to limit the number of false positives with RNA-Seq data.
+    
+  </div>
+
+  <div class="pub-authors" itemprop="author">
+    
+    S. Lagarrigue, L. Martin, F. Hormozdiari, P.F. Roux, A. van Nas, O. Demeure, A. Ghazalpour, E. Eskin, A.J. Lusis
+    
+  </div>
+
+  <div class="pub-publication">
+    
+    In <em>Genetics</em>,
+    
+    2013
+  </div>
+
+  <div class="pub-links">
+    
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.genetics.org/content/195/3/1157.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+    
+    <p class="view-all">
+      <a href="/publication/">
+        More Publications
+        <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    M. Seehawer, F. Heinzmann, L. D’Artista, P.F. Roux, L. Hoenicke, H. Dang, S. Klotz, L. Robinson, G. Doré, N. Rozenblum, T.W. Kang, R. Chawla, T. Buch, M. Vucur, M. Roth, J. Zuber, T.Luedde, B. Sipos, T. Longerich, M. Heikenwälder, X.W. Wang, O. Bischof, L. Zender</span>.
+  <a href="/publication/necroptosis-microenvironment-directs-lineage-commitment-in-liver-cancer/" itemprop="name">Necroptosis microenvironment directs lineage commitment in liver cancer</a>.
+  In <em>Nature</em>,
+  2018.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.nature.com/articles/s41586-018-0519-y" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    C. Désert, E. Baeza, M. Aite, M. Boutin, A. Le Cam, J. Montfort, M. Houée-Bigot, Y. Blum, P.F. Roux, C. Hennequet-Antier, C. Berri, S. Metayer-Coustard, A. Collin, S. Allais, E. Le Bihan, D. Causeur, F. Gondret, M. Duclos, S. Lagarrigue</span>.
+  <a href="/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/" itemprop="name">Multi-tissue transcriptomic study reveals the main role of liver in the chicken adaptive response to a switch in dietary energy source through the transcriptional regulation of lipogenesis</a>.
+  In <em>BMC Genomics</em>,
+  2018.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-018-4520-5" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    C. Désert, E. Baeza, M. Aite, M. Boutin, A. Le Cam, J. Montfort, M. Houée-Bigot, Y. Blum, P.F. Roux, C. Hennequet-Antier, C. Berri, S. Metayer-Coustard, A. Collin, S. Allais, E. Le Bihan, D. Causeur, F. Gondret, M. Duclos, S. Lagarrigue</span>.
+  <a href="/publication/multi-tissue-transcriptomic-study-reveals-the-main-role-of-liver-in-the-chicken-adaptive-response-to-a-switch-in-dietary-energy-source-through-the-transcriptional-regulation-of-lipogenesis/" itemprop="name">Multi-tissue transcriptomic study reveals the main role of liver in the chicken adaptive response to a switch in dietary energy source through the transcriptional regulation of lipogenesis</a>.
+  In <em>BMC Genomics</em>,
+  2018.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-018-4520-5" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    R. Martínez-Zamudio, L. Robinson, P.F. Roux, O. Bischof</span>.
+  <a href="/publication/snapshot-cellular-senescence-in-pathophysiology/" itemprop="name">Snapshot: cellular senescence in pathophysiology</a>.
+  In <em>Cell</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0092867417309509/pdf?md5=96a0686f34e1d06e581970b6658ea534&amp;pid=1-s2.0-S0092867417309509-main.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/toward-a-systems-view-of-cellular-senescence/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    R. Martínez-Zamudio, L. Robinson, P.F. Roux, O. Bischof</span>.
+  <a href="/publication/snapshot-cellular-senescence-pathways/" itemprop="name">Snapshot: cellular senescence pathways</a>.
+  In <em>Cell</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S0092867417308863/pdf?md5=b30d96e074a72a1df42ea957c175be74&amp;pid=1-s2.0-S0092867417308863-main.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/toward-a-systems-view-of-cellular-senescence/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    E. Fernandez-Rebollo, B. Mentrup, R. Ebert, J. Franzen, G. Abagnale, T. Sieben, A. Ostrowska, P. Hoffmann, P.F. Roux, B. Rath, M. Goodhardt, J.M. Lemaitre, O. Bischof, F. Jakob, W. Wagner</span>.
+  <a href="/publication/human-platelet-lysate-versus-fetal-calf-serum-these-supplements-do-not-select-for-different-mesenchymal-stromal-sells/" itemprop="name">Human platelet lysate versus fetal calf serum: these supplements do not select for different mesenchymal stromal sells</a>.
+  In <em>Scientific Reports</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.nature.com/articles/s41598-017-05207-1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    L. Frésard, S. Leroux, P.F. Roux, C. Klopp, D. Esquerré, P. Dehais, A. Djari, D. Gourichon, S. Lagarrigue, F. Pitel</span>.
+  <a href="/publication/genome-wide-characterization-of-rna-editing-in-chicken-embryos-reveals-common-features-among-vertebrates/" itemprop="name">Genome-wide characterization of RNA editing in chicken embryos reveals common features among vertebrates</a>.
+  In <em>PLoS One</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.g3journal.org/content/ggg/6/2/321.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    K. Contrepois, C. Coudereau, B.A. Benayoun, N. Schuler, P.F. Roux, O. Bischof, R. Courbeyrette, C. Carvalho, J.Y. Thuret, Z. Ma, C. Derbois, M.C. Nevers, H. Volland, C.E. Redon, W.M. Bonner, J.F. Deleuze, C. Wiel, D. Bernard, M.P. Snyder, C.E. Rübe, R. Olaso, F. Fenaille, C. Mann</span>.
+  <a href="/publication/histone-variant-h2a.j-accumulates-in-senescent-cells-and-promotes-inflammatory-gene-expression/" itemprop="name">Histone variant H2A.J accumulates in senescent cells and promotes inflammatory gene expression</a>.
+  In <em>Nature Communications</em>,
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.nature.com/articles/ncomms14995.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/toward-a-systems-view-of-cellular-senescence/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    C. Désert, E. Merlot, T. Zerjal, B. Bed&rsquo;hom, S. Härtle, A. Le Cam, P.F. Roux, E. Baeza, F. Gondret, M.J. Duclos, S. Lagarrigue</span>.
+  <a href="/publication/transcriptomes-of-whole-blood-and-pbmc-in-chicken/" itemprop="name">Transcriptomes of whole blood and PBMC in chicken</a>.
+  In <em>Comparative Biochemistry and Physiology</em>,
+  2016.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.sciencedirect.com/science/article/pii/S1744117X16300478/pdfft?md5=0badad19be57d1a8f0cf248fd77e185e&amp;pid=1-s2.0-S1744117X16300478-main.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    P.F. Roux, S. Marthey, A. Djari, M. Moroldo, D. Esquerré, J. Estellé, C. Klopp, S. Lagarrigue, O. Demeure</span>.
+  <a href="/publication/comparison-of-whole-genome-13x-and-capture-87x-resequencing-methods-for-snp-and-genotype-callings/" itemprop="name">Comparison of whole-genome (13X) and capture (87X) resequencing methods for SNP and genotype callings</a>.
+  In <em>Animal Genetics</em>,
+  2015.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/age.12248" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline btn-xs" href="/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="photos" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Photos</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item Madagascar Pictures">
+        <div class="card">
+          
+          <a href="/photos/madagascar/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img//mada/IMG_0024.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/photos/madagascar/" >Madagascar</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span class="hidden default-project-filter">*</span>
+    
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+            
+              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+            
+              <a href="#" data-filter=".senescence" class="btn btn-primary btn-large">Senescence</a>
+            
+              <a href="#" data-filter=".editing" class="btn btn-primary btn-large">RNA editing</a>
+            
+              <a href="#" data-filter=".QTL" class="btn btn-primary btn-large">WGS and QTLs</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item Cellular senescence">
+        <div class="card">
+          
+          <a href="/project/toward-a-systems-view-of-cellular-senescence/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/Cellular_senescence.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/project/toward-a-systems-view-of-cellular-senescence/" >Toward a systems view of cellular senescence</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item RNA editing RNA-seq DNA-seq">
+        <div class="card">
+          
+          <a href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/puzzle-2500333_640.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/" >Combined DNA and RNA sequencing for RNA editing event discovery</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item DNA-seq QTL mapping GWAS">
+        <div class="card">
+          
+          <a href="/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/dna-1903318_640.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/" >Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="teaching" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Teaching</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span class="hidden default-project-filter">*</span>
+    
+
+    
+    
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item ChIP-seq ATAC-seq MNase-seq UNIX R Bioconductor">
+        <div class="card">
+          
+          <a href="/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/pay-937884_640.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/" >In silico and statistical analyses of epigenomic data with UNIX and R</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item RNA-seq UNIX">
+        <div class="card">
+          
+          <a href="/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/puzzle-2500333_640.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/teaching/in-silico-in-depth-analysis-of-transcriptomic-data-with-unix/" >In silico in-depth analyses of transcriptomic data with UNIX</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item R ggplot">
+        <div class="card">
+          
+          <a href="/teaching/visualisation-of-genomic-data-with-r-ggplot/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/background-2462432_640.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/teaching/visualisation-of-genomic-data-with-r-ggplot/" >Visualisation of genomic data with ggplot</a></h4>
+            <div class="card-desription">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="tags" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Tags</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div id="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/atac-seq/" style="font-size:0.8rem">ATAC-seq</a>
+        
+          
+          
+          
+          <a href="/tags/bioconductor/" style="font-size:0.8rem">Bioconductor</a>
+        
+          
+          
+          
+          <a href="/tags/cellular-senescence/" style="font-size:0.8rem">Cellular senescence</a>
+        
+          
+          
+          
+          <a href="/tags/chip-seq/" style="font-size:0.8rem">ChIP-seq</a>
+        
+          
+          
+          
+          <a href="/tags/dna-seq/" style="font-size:1.8725805810714777rem">DNA-seq</a>
+        
+          
+          
+          
+          <a href="/tags/gwas/" style="font-size:0.8rem">GWAS</a>
+        
+          
+          
+          
+          <a href="/tags/mnase-seq/" style="font-size:0.8rem">MNase-seq</a>
+        
+          
+          
+          
+          <a href="/tags/madagascar/" style="font-size:0.8rem">Madagascar</a>
+        
+          
+          
+          
+          <a href="/tags/pictures/" style="font-size:0.8rem">Pictures</a>
+        
+          
+          
+          
+          <a href="/tags/qtl-mapping/" style="font-size:0.8rem">QTL mapping</a>
+        
+          
+          
+          
+          <a href="/tags/r/" style="font-size:1.8725805810714777rem">R</a>
+        
+          
+          
+          
+          <a href="/tags/rna-editing/" style="font-size:0.8rem">RNA editing</a>
+        
+          
+          
+          
+          <a href="/tags/rna-seq/" style="font-size:1.8725805810714777rem">RNA-seq</a>
+        
+          
+          
+          
+          <a href="/tags/unix/" style="font-size:1.8725805810714777rem">UNIX</a>
+        
+          
+          
+          
+          <a href="/tags/ggplot/" style="font-size:0.8rem">ggplot</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="contact" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+      <li>
+        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a href="mailto:pierre-francois.roux@pasteur.fr">pierre-francois.roux@pasteur.fr</a></span>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">Bâtiment Lwoff, 28 rue du Dr Roux, Paris, 75724 Paris Cedex 15, FRANCE</span>
+      </li>
+      
+
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Pierre-François Roux &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//www-pierre-francois-roux-com.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
+

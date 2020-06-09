@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xomics on Easy as ATCG</title>
+    <link>/tags/xomics/</link>
+    <description>Recent content in Xomics on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/xomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In silico and statistical analyses of epigenomic data with UNIX and R</title>
+      <link>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/in-silico-and-statistical-analyses-of-epigenomic-data-with-unix-and-r/</guid>
+      <description>Agrocampus Ouest, en lien avec la plateforme Bioinformatique GenOuest et l&amp;rsquo;INRA, propose une formation centrée sur l&amp;rsquo;analyse de données haut débit issus des microarrays et des technologies de séquençage haut-débit (en particulier le RNA-seq et le ChIP-seq) incluant les traitements bioinformatiques (RNA-seq et ChIP-seq), les traitements statistiques (cas des microarrays et RNA-seq) et l&amp;rsquo;interprétation biologique de listes de gènes d&amp;rsquo;intérêt jusqu&amp;rsquo;à la réalisation et visualisation de réseaux de gènes. Cette formation a pour objectif de vous donner les éléments théoriques et pratiques vous permettant d&amp;rsquo;être autonome dans l&amp;rsquo;analyse de vos données.</description>
+    </item>
+    
+  </channel>
+</rss>

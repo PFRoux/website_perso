@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ggplot on Easy as ATCG</title>
+    <link>/tags/ggplot/</link>
+    <description>Recent content in Ggplot on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visualisation of genomic data with ggplot</title>
+      <link>/teaching/visualisation-of-genomic-data-with-r-ggplot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/teaching/visualisation-of-genomic-data-with-r-ggplot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

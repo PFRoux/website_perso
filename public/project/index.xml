@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Easy as ATCG</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Easy as ATCG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Pierre-François Roux</copyright>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Toward a systems view of cellular senescence</title>
+      <link>/project/toward-a-systems-view-of-cellular-senescence/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/project/toward-a-systems-view-of-cellular-senescence/</guid>
+      <description>Cellular senescence is a response to nonlethal stress that results in a persistent and often extremely stable cell cycle arrest. Among the most prominent intrinsic stimuli that induce a senescence response are genomic and epigenomic perturbations many of which can initiate or promote aging and age-related diseases. The underlying mechanisms for these perturbations are largely unknown. Senescence-inducing stimuli include progressive telomere shortening (replicative senescence) but also other stimuli that by-and-large do not impact telomere integrity such as oncogenic signaling (oncogene-induced senescence), DNA damage, oxidative stress and cytokines among others.</description>
+    </item>
+    
+    <item>
+      <title>Combined DNA and RNA sequencing for RNA editing event discovery</title>
+      <link>/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/combined-dna-and-rna-sequencing-for-rna-editing-event-discovery/</guid>
+      <description>RNA editing has become a generic term for a wide array of post-transcriptional processes that change the mature RNA sequence relative to the corresponding encoding genomic DNA matrix. This phenomenon, which is almost limited to eukaryotes with some exceptions, is characterized by nucleotide insertion, deletion, or substitution in various types of RNAs including mRNAs, tRNAs, miRNAs, and rRNAs , and is likely to contribute to RNA diversity. Until recently, this mechanism was considered relatively rare in vertebrates, mainly restricted to brain-specific substrates and repetitive regions of the genome, and limited to extensively validated ADAR-mediated adenosine to inosine (A-to-I) substitutions and APOBEC-mediated cytosine to uracil (C-to-U) changes.</description>
+    </item>
+    
+    <item>
+      <title>Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes</title>
+      <link>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/integrating-linkage-analysis-with-whole-genome-sequencing-to-dissect-complex-phenotypes/</guid>
+      <description>The ultimate goal of quantitative trait loci (QTL) mapping approaches is to gain a better understanding of biological mechanisms involved in these phenotypes to offer molecular tools for medical diagnosis or animal selection. Over the past three decades, several thousand QTL have been mapped for different traits in many species. In this context, whereas genome-wide association study is developing as the reference QTL mapping method for human populations, most of the QTL referenced today in experimental or livestock species were mapped by linkage analysis approaches through F2 genetic crosses.</description>
+    </item>
+    
+  </channel>
+</rss>
