@@ -1,7 +1,7 @@
 +++
 slug = "AP-1 imprints a reversible transcriptional programme of senescent cells"
 title = "AP-1 imprints a reversible transcriptional programme of senescent cells"
-date = 2018-09-12T00:00:00
+date = 2020-09-12T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["P.F. Roux", "R. Martinez", "J. de Freitas", "L. Robinson", "G. Doré", "B. Sun", "D. Belenki", "M. Milanovic", "U. Herbig", "C. Schmitt", "J. Gil", "O. Bischof"]
