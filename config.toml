@@ -11,7 +11,7 @@ title = "Pierre-François Roux"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 Pierre-François Roux"
+copyright = "&copy; 2021 Pierre-François Roux"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -63,12 +63,12 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Pasteur Institute - Paris", url = "https://www.pasteur.fr/en" } ]
+  organizations = [ { name = "Inserm - IRCM - Montpellier", url = "https://www.ircm.fr/crcm_en/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "pierre-francois.roux@pasteur.fr"
-  address = "Bâtiment Lwoff, 28 rue du Dr Roux, Paris, 75724 Paris Cedex 15, FRANCE"
+  email = "pierre-francois.roux@inserm.fr"
+  address = "Campus Val d'Aurelle, 208 avenue des Apothicaires, 34298 Montpellier cedex 5 FRANCE"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
   #skype = "echo123"
