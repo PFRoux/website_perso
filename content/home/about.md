@@ -59,6 +59,6 @@ weight = 5
  
 +++
 
-I am a curious and eager to learn *in silico* biologist, enjoying adressing challenges related to the advent of high-throughput biotechnologies to answer always more complex and integrative questions to understand the eukaryotic gene expression regulation.
+The advent of high-throughput technologies and integrative strategies based on -omic data have deeply impacted the way we approach questions in biology. During my training, I developed ambitious integrative projects aiming at understanding the genetic and molecular mechanisms involved in the regulation of metabolism, its influence on the skin microbiota, or its dynamics during cellular senescence. My work has progressively led me to acquire an expertise in the fields of metabolism, epigenetics and systems biology applied to oncology and aging. I am now applying this expertise to pathophysiological questions at the interface between metabolism, epigenetics, senescence and cancer.
 
 I am currently working at the Montpellier Cancer Research Institute as a postdoctoral fellow, in the unit [Molecular Oncogenesis](https://www.ircm.fr/crcm_en/) headed by Laurent Le Cam. 
