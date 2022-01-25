@@ -10,13 +10,13 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Genomics",
-    "Epigenomics",
-    "Computational biology",
-    "Next generation sequencing",
-    "Systems biology",
-    "Cellular senescence",
-    "Cancer biology"
+ "Functional genomics"
+ "Genetics"
+ "Epigenomics"
+ "Metabolism"
+ "Systems biology"
+ "Cellular senescence"
+  "Cancer biology"
   ]
 
 [CNU]

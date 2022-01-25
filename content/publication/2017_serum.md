@@ -1,5 +1,5 @@
 +++
-slug = "Human platelet lysate versus fetal calf serum: these supplements do not select for different mesenchymal stromal sells"
+slug = "Human platelet lysate versus fetal calf serum: these supplements do not select for different mesenchymal stromal cells"
 title = "Human platelet lysate versus fetal calf serum: these supplements do not select for different mesenchymal stromal sells"
 date = 2017-07-11T00:00:00
 
