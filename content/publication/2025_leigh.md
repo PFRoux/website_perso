@@ -4,7 +4,7 @@ title = "E4F1 coordinates pyruvate metabolism and the activity of the elongator 
 date = 2025-01-11T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["M. Di Michele", "A. Attina*", "P.F. Roux*", "I. Tabet", "S. Laguesse", "J.Florido", "M. Houdeville", "A. Choquet", "B. Encislai", "G. Arena", "C. De Blasio", "O. Wendling", "F.X. Frenois", "L. Papon", "L. Stuani", "M. Fuentes", "C. Jahannault Talignani", "M. Rousseau", "J. Guégan", "Y. Buscail", "P. Dupré", "H.A. Michaud", "G. Rodier", "F. Bellvert", "H. Kulyk", "C. Ferraro Peyret", "H. Mathieu", "P. Close", "F. Rapino", "C. Chaveroux", "N. Pirot", "L. Rubio", "A. Torro", "T. Sorg", "F. Ango", "C. Hirtz", "V. Compan", "E. Lebigot", "A. Legati", "D. Ghezzi", "L. Nguyen", "A. David", "C. Sardet", "M. Lacroix", "L. Le Cam"]
+authors = ["M. Di Michele", "A. Attina", "P.F. Roux*", "I. Tabet", "S. Laguesse", "J.Florido", "M. Houdeville", "A. Choquet", "B. Encislai", "G. Arena", "C. De Blasio", "O. Wendling", "F.X. Frenois", "L. Papon", "L. Stuani", "M. Fuentes", "C. Jahannault Talignani", "M. Rousseau", "J. Guégan", "Y. Buscail", "P. Dupré", "H.A. Michaud", "G. Rodier", "F. Bellvert", "H. Kulyk", "C. Ferraro Peyret", "H. Mathieu", "P. Close", "F. Rapino", "C. Chaveroux", "N. Pirot", "L. Rubio", "A. Torro", "T. Sorg", "F. Ango", "C. Hirtz", "V. Compan", "E. Lebigot", "A. Legati", "D. Ghezzi", "L. Nguyen", "A. David", "C. Sardet", "M. Lacroix", "L. Le Cam"]
 
 # Publication type.
 # Legend:
