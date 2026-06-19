@@ -1,7 +1,14 @@
 [build]
-  command = "hugo"
   publish = "public"
+  command = """
+    mkdir -p "${HOME}/.local/bin" && \
+    curl -sL --fail -o hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION_DOWNLOAD}/hugo_extended_${HUGO_VERSION_DOWNLOAD}_Linux-64bit.tar.gz" && \
+    tar -C "${HOME}/.local/bin" -xf hugo.tar.gz hugo && \
+    rm hugo.tar.gz && \
+    export PATH="${HOME}/.local/bin:${PATH}" && \
+    hugo version && \
+    hugo
+  """
 
 [build.environment]
-  HUGO_VERSION = "0.54.0"
-  HUGO_EXTENDED = "true"
+  HUGO_VERSION_DOWNLOAD = "0.54.0"
