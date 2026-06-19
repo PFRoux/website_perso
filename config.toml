@@ -71,7 +71,7 @@ enableGitInfo = false
   # Logos displayed under the profile portrait.
   profile_logos = [
     { name = "IRCM", image = "logos/ircm.png", url = "https://www.ircm.fr/crcm_en/" },
-    { name = "Inserm", image = "logos/inserm.jpg", url = "https://www.inserm.fr/" },
+    { name = "Inserm", image = "logos/inserm.png", url = "https://www.inserm.fr/" },
     { name = "Université de Montpellier", image = "logos/universite-montpellier.png", url = "https://www.umontpellier.fr/" }
   ]
 

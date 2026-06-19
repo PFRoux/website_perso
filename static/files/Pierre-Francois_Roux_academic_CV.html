@@ -7,9 +7,9 @@
     body {
       color: #1f2933;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 11px;
-      line-height: 1.42;
-      margin: 34px 42px;
+      font-size: 10.5px;
+      line-height: 1.38;
+      margin: 32px 42px;
     }
     h1 {
       color: #005190;
@@ -19,20 +19,21 @@
     h2 {
       border-bottom: 1px solid #d7dde3;
       color: #005190;
-      font-size: 14px;
-      margin: 18px 0 8px;
+      font-size: 13px;
+      margin: 16px 0 7px;
       padding-bottom: 3px;
       text-transform: uppercase;
     }
     h3 {
-      font-size: 12px;
-      margin: 10px 0 2px;
+      color: #263746;
+      font-size: 11px;
+      margin: 8px 0 2px;
     }
     p {
-      margin: 0 0 6px;
+      margin: 0 0 5px;
     }
     ul {
-      margin: 4px 0 8px 18px;
+      margin: 3px 0 7px 17px;
       padding: 0;
     }
     li {
@@ -40,13 +41,8 @@
     }
     .meta {
       color: #4b5563;
-      font-size: 10.5px;
-      margin-bottom: 12px;
-    }
-    .two-col {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      font-size: 10px;
+      margin-bottom: 11px;
     }
     .role {
       color: #374151;
@@ -56,65 +52,103 @@
       color: #6b7280;
       font-weight: bold;
     }
+    .compact li {
+      margin-bottom: 1px;
+    }
   </style>
 </head>
 <body>
   <h1>Pierre-Francois Roux</h1>
-  <p class="meta">PhD in Genetics and Genomics | IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France<br>
-  pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437</p>
+  <p class="meta">
+    PhD in Genetics and Genomics | Qualified in CNU sections 64 and 65<br>
+    IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France<br>
+    pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437
+  </p>
 
   <h2>Research Profile</h2>
-  <p>I study how metabolic states shape gene regulation, chromatin organization and cell fate decisions in aging, cancer and skin biology. My work combines molecular and cellular biology with functional genomics, multi-omics integration, bioinformatics and systems biology.</p>
+  <p>I study how metabolic states shape gene regulation, chromatin organization and cell fate decisions in aging, cancer and skin biology. My work combines experimental molecular biology with functional genomics, multi-omics integration, bioinformatics, systems biology and machine-learning approaches. My current research focuses on p53/E4F1-mediated metabolic-epigenetic coupling during senescence and on ATAC-seq-derived signatures of aging, frailty and tumor evolution.</p>
 
   <h2>Professional Experience</h2>
   <p><span class="date">2021-present</span> <span class="role">Research Scientist, Molecular Oncogenesis, IRCM - Inserm U1194, Montpellier.</span><br>
-  p53-mediated metabolic reprogramming during cellular senescence and aging; integrative ATAC-seq, CUT&amp;RUN, RNA-seq and metabolomics approaches.</p>
+  p53-mediated metabolic reprogramming during senescence and aging; E4F1, pyruvate metabolism, acetyl-CoA, chromatin acetylation, ATAC-seq, CUT&amp;RUN, RNA-seq, metabolomics and in vivo aging models.</p>
   <p><span class="date">2019-2021</span> <span class="role">Research Scientist, Upstream Skin Research &amp; Innovation, Johnson &amp; Johnson, Val-de-Reuil.</span><br>
-  Integrative microbiome and metabolome approaches for skin physiology, aging and inflammatory risk.</p>
-  <p><span class="date">2015-2019</span> <span class="role">Postdoctoral Researcher, Institut Pasteur / Inserm U993, Paris.</span><br>
-  Time-resolved multi-omic profiling of cellular senescence and regulatory network inference.</p>
+  Integrative microbiome/metabolome studies of skin physiology, skin maturation, barrier function, inflammatory risk and translational biomarker discovery.</p>
+  <p><span class="date">2015-2019</span> <span class="role">Postdoctoral Researcher, Institut Pasteur / Inserm U993, Nuclear Organization and Oncogenesis, Paris.</span><br>
+  Time-resolved multi-omic profiling of cellular senescence; enhancer dynamics, AP-1 regulatory circuits, chromatin remodeling, transcriptomics, metabolomics and network inference.</p>
   <p><span class="date">2011-2014</span> <span class="role">PhD, INRAe - Institut Agro 1348 PEGASE, Rennes.</span><br>
-  Whole-genome sequencing, quantitative genetics and RNA editing in complex metabolic traits.</p>
+  Quantitative genetics, whole-genome sequencing, QTL fine mapping, cis-eQTL analysis and RNA editing in complex metabolic traits.</p>
 
-  <h2>Education</h2>
-  <ul>
+  <h2>Education and Training</h2>
+  <ul class="compact">
+    <li><strong>2022</strong> Animal experimentation training, designer level, BioCampus Montpellier.</li>
     <li><strong>2014</strong> PhD in Genetics and Genomics, Institut Agro Rennes-Angers.</li>
     <li><strong>2011</strong> MEng in Agronomical Science, Institut Agro Rennes-Angers.</li>
     <li><strong>2011</strong> MSc in Cell and Molecular Biology, Universite Rennes 1.</li>
     <li><strong>2009</strong> MSc in Environment and Oceanology, Universite Lille 1.</li>
+    <li><strong>2008</strong> BSc in Biology of Organisms and Populations, Universite Lille.</li>
   </ul>
 
-  <h2>Selected Research Contributions</h2>
+  <h2>Research Contributions</h2>
   <ul>
-    <li>Developed an integrative view of AP-1-driven enhancer remodeling during oncogene-induced senescence.</li>
-    <li>Established bulk ATAC-seq as a dual genetic and epigenetic assay for cancer and aging-related molecular profiling.</li>
-    <li>Investigated E4F1-mediated pyruvate metabolism as a link between p53 signaling, acetyl-CoA production and chromatin regulation.</li>
-    <li>Integrated skin microbiome and metabolome profiles to identify microbe-metabolite clusters relevant to skin physiology.</li>
-    <li>Combined QTL mapping, WGS, selection signatures and eQTL analyses to prioritize causal genes for adiposity.</li>
+    <li><strong>p53/E4F1, metabolism and senescence:</strong> investigated how E4F1 connects p53/pRB signaling, pyruvate metabolism, acetyl-CoA production and chromatin regulation during senescence.</li>
+    <li><strong>ATAC-seq as an integrative assay:</strong> established bulk ATAC-seq as a dual genetic and epigenetic platform capturing chromatin accessibility, variants, CNVs, mitochondrial features and telomere-associated signals.</li>
+    <li><strong>Systems view of senescence:</strong> developed temporal multi-omic analyses identifying enhancer remodeling and AP-1-centered regulatory circuits as key determinants of oncogene-induced senescence.</li>
+    <li><strong>Skin microbiome and metabolome:</strong> integrated microbiome and metabolome profiles to identify microbe-metabolite clusters relevant to skin physiology and early-life skin maturation.</li>
+    <li><strong>Quantitative genetics:</strong> combined QTL mapping, WGS, selection signatures, variant annotation and eQTL analyses to prioritize causal genes for adiposity and energy metabolism.</li>
+    <li><strong>RNA editing:</strong> developed stringent WGS/RNA-seq strategies to distinguish genuine RNA editing events from sequencing and mapping artifacts.</li>
   </ul>
 
-  <h2>Publications & Valorization</h2>
+  <h2>Publications and Valorization</h2>
   <ul>
     <li>24 original research articles, including 7 first or co-first author publications and 1 last/corresponding author publication.</li>
-    <li>2 review articles, 1 didactic article and 4 patents.</li>
-    <li>Selected journals: NAR Genomics and Bioinformatics, Nature Communications, Nature Aging, Journal of Investigative Dermatology, Nature Cell Biology, Nature, Cell, Cell Genomics.</li>
+    <li>2 review articles, 1 didactic article, 1 radio communication and 4 patents.</li>
+    <li>Major journals include NAR Genomics and Bioinformatics, Nature Communications, Nature Aging, Journal of Investigative Dermatology, Nature Cell Biology, Nature, Cell and Cell Genomics.</li>
+  </ul>
+
+  <h2>Selected Publications</h2>
+  <ul>
+    <li>Toumi I., Kham C., Stuani L., Le Cam L., <strong>Roux P.F.</strong> Beyond chromatin accessibility: bulk ATAC-seq as an integrative assay to portray genomes and epigenomes. <em>NAR Genomics and Bioinformatics</em>, 2026. Last and corresponding author.</li>
+    <li>Di Michele M., Attina A., <strong>Roux P.F.</strong> et al. E4F1 coordinates pyruvate metabolism and the activity of the elongator complex to ensure translation fidelity during brain development. <em>Nature Communications</em>, 2025. Co-second author.</li>
+    <li>Guerrero A. et al. 3-Deazaadenosine alleviates senescence to promote cellular fitness and cell therapy efficiency in mice. <em>Nature Aging</em>, 2022.</li>
+    <li><strong>Roux P.F.</strong>, Oddos T., Stamatas G. Deciphering the role of skin surface microbiome on skin health: an integrative multi-omics approach reveals three microbial/metabolic clusters. <em>Journal of Investigative Dermatology</em>, 2021. First author.</li>
+    <li>Martinez-Zamudio R.I., <strong>Roux P.F.</strong> et al. AP-1 imprints a reversible transcriptional programme of senescent cells. <em>Nature Cell Biology</em>, 2020. Co-first author.</li>
+    <li>Heinzmann F. et al. Necroptosis microenvironment determines lineage commitment in liver cancer. <em>Nature</em>, 2018.</li>
+    <li>Martinez-Zamudio R.I., Robinson L., <strong>Roux P.F.</strong>, Bischof O. Snapshot: cellular senescence pathways / in pathophysiology. <em>Cell</em>, 2017.</li>
+    <li><strong>Roux P.F.</strong> et al. Combined QTL and selective sweep mappings with coding SNP annotation and cis-eQTL analysis revealed PARK2 and JAG2 as candidate genes for adiposity regulation. <em>G3</em>, 2015. First author.</li>
+  </ul>
+
+  <h2>Funding</h2>
+  <ul>
+    <li><strong>Submitted:</strong> ANR 2026 project on metabolism-epigenome interactions during cellular senescence and aging.</li>
+    <li><strong>Submitted:</strong> Canceropole Grand Sud-Ouest 2026 project on integrative tumor profiling by ATAC-seq for actionable signatures.</li>
+    <li><strong>Acquired:</strong> ANR 2019 S-ENCODE project on deciphering the senescence code to improve healthy lifespan.</li>
   </ul>
 
   <h2>Teaching</h2>
   <ul>
-    <li>Master 2 Biology-Health, Universite de Montpellier: molecular basis of cellular senescence and aging.</li>
-    <li>Institut Agro Rennes-Angers: RNA-seq, ChIP-seq, ATAC-seq, UNIX/R and genomic data analysis, continuing education Omic &amp; NGS, since 2014.</li>
-    <li>SIRIC Montpellier Cancer: ATAC-seq practical data analysis training, since 2025.</li>
+    <li><strong>Universite de Montpellier:</strong> Master 2 Biology-Health, molecular basis of cellular senescence and aging, lecture, 4 h, 2021.</li>
+    <li><strong>Institut Agro Rennes-Angers:</strong> engineering students and continuing education, RNA-seq, ChIP-seq, ATAC-seq, UNIX/R and genomic data analysis, since 2014.</li>
+    <li><strong>Universite Rennes 1:</strong> Master 1 Cell and Molecular Biology, practical/statistical training, 16 h, 2012.</li>
+    <li><strong>SIRIC Montpellier Cancer:</strong> Unlocking epigenomic insights: ATAC-seq data analysis in practice, practical training, since 2025.</li>
   </ul>
 
-  <h2>Supervision</h2>
+  <h2>Supervision and Training</h2>
   <ul>
-    <li>Co-supervision of 1 PhD student.</li>
-    <li>Supervision of 7 Master 2 internships and 2 Master 1 internships.</li>
+    <li>Co-supervision of 1 PhD student on aging, cellular senescence and metabolic adaptability.</li>
+    <li>Supervision of 7 Master 2 internships in bioinformatics, epigenomics, cancer biology and structural genomics.</li>
+    <li>Supervision of 2 Master 1 internships in molecular and cellular biology.</li>
     <li>Member of a PhD thesis committee.</li>
   </ul>
 
-  <h2>Research Themes</h2>
-  <p>Cellular senescence; aging; p53 biology; metabolism; epigenetics; functional genomics; ATAC-seq; RNA-seq; CUT&amp;RUN; metabolomics; microbiome; systems biology; machine learning; quantitative genetics.</p>
+  <h2>Scientific Animation, Responsibilities and Service</h2>
+  <ul>
+    <li>Invited seminars at international research institutes on systems views of senescence and metabolic reprogramming.</li>
+    <li>Participation in conference organization, scientific events and collaborative research networks.</li>
+    <li>Editorial and peer-review activities for scientific journals.</li>
+    <li>Involvement in professional equality and mentoring actions, including Femmes &amp; Sciences mentoring.</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <p>Functional genomics; RNA-seq; ATAC-seq; CUT&amp;RUN; ChIP-seq; MNase-seq; WGS; QTL mapping; cis-eQTL; metabolomics; microbiome profiling; UNIX; R/Bioconductor; reproducible workflows; multi-omics integration; network inference; dimensionality reduction; feature selection; machine learning; cellular senescence models; primary cells; mouse models.</p>
 </body>
 </html>
