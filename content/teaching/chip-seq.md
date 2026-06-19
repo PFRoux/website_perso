@@ -34,6 +34,11 @@ To support molecular and cell biologists in their quest for autonomy when dealin
 
 The workshop dedicated to epigenomic data analysis addresses the following topics:
 
+<div class="institution-badges">
+  <span class="institution-badge"><i class="fa fa-university"></i> Institut Agro Rennes-Angers, continuing education Omic & NGS, since 2014</span>
+  <span class="institution-badge"><i class="fa fa-university"></i> SIRIC Montpellier Cancer, ATAC-seq practical training, since 2025</span>
+</div>
+
 * Introduction to epigenome screening technologies (ChIP-seq, ATAC-seq, MNase-seq ...)
 * Biases and noise in sequencing data
 * Introduction to UNIX environment and Bash scripting

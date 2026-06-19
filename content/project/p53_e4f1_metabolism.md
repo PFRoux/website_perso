@@ -14,7 +14,7 @@ summary = "Dissecting how p53-associated metabolic programs, pyruvate metabolism
 image_preview = "research-p53-e4f1-metabolism.jpg"
 
 # Tags: can be used for filtering projects.
-tags = ["Cellular senescence", "Aging", "Metabolism", "Epigenetics", "p53", "Functional genomics"]
+tags = ["Cellular senescence", "senescence", "Aging", "aging", "Metabolism", "Epigenetics", "p53", "Functional genomics", "genomics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

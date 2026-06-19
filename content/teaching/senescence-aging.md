@@ -30,6 +30,11 @@ image = "research-senescence-systems.jpg"
 
 This teaching introduces the molecular basis of cellular senescence and aging, with a focus on how stress-response pathways, chromatin regulation, metabolism and inflammatory programs interact to shape cell fate decisions.
 
+<div class="institution-badges">
+  <span class="institution-badge"><i class="fa fa-university"></i> Université de Montpellier, Master 2 Biologie-Santé, 2021</span>
+  <span class="institution-badge"><i class="fa fa-clock-o"></i> Lecture, 4 h</span>
+</div>
+
 The course connects fundamental mechanisms to pathophysiological contexts, including tumor suppression, tissue aging, cancer biology and metabolic homeostasis. It also uses examples from functional genomics and multi-omic studies to show how contemporary molecular biology can move from descriptive profiles to mechanistic hypotheses.
 
 Core topics include cell-cycle checkpoint pathways, p53 and pRB signaling, senescence-associated chromatin remodeling, SASP regulation, metabolic rewiring, links between DNA damage and cell fate, and the contribution of senescent cells to aging-related diseases. Depending on the audience, the course can also introduce current approaches used to profile senescence, including RNA-seq, ATAC-seq, CUT&RUN, ChIP-seq, metabolomics and single-cell/spatial extensions.

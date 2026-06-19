@@ -33,6 +33,11 @@ To support molecular and cell biologists in their quest for autonomy when dealin
 
 The workshop dedicated to RNA-seq analysis addresses the following topics:
 
+<div class="institution-badges">
+  <span class="institution-badge"><i class="fa fa-university"></i> Institut Agro Rennes-Angers, continuing education Omic & NGS, since 2014</span>
+  <span class="institution-badge"><i class="fa fa-users"></i> Professional training for molecular biologists and genomic data users</span>
+</div>
+
 * Introduction to UNIX environment and Bash scripting
 * Work on a cluster with job schedulers (SLURM and SGE)
 * Use parallel environments
@@ -50,4 +55,3 @@ Below, you will find slides from our last RNA-seq workshop (*in french*).
 
 
 <script async class="speakerdeck-embed" data-id="9bd15966e78e42b8a95a7260f4b2d924" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
-

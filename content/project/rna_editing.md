@@ -15,7 +15,7 @@ image_preview = "research-rna-editing.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["RNA editing", "RNA-seq", "DNA-seq", "Functional genomics", "Bioinformatics"]
+tags = ["RNA editing", "editing", "RNA-seq", "DNA-seq", "Functional genomics", "genomics", "Bioinformatics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

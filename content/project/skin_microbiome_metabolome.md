@@ -14,7 +14,7 @@ summary = "Integrative microbiome and metabolome analyses to understand how micr
 image_preview = "research-skin-microbiome.jpg"
 
 # Tags: can be used for filtering projects.
-tags = ["Skin biology", "Microbiome", "Metabolomics", "Systems biology", "Translational research"]
+tags = ["Skin biology", "skin", "Microbiome", "Metabolomics", "Systems biology", "Translational research"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

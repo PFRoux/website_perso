@@ -1,0 +1,119 @@
+/*************************************************
+ *  Custom theme and layout refinements
+ **************************************************/
+
+a,
+a:visited,
+h3.article-title a:hover {
+    color: rgb(0,81,144);
+}
+
+a:hover {
+    color: rgb(228,154,0);
+}
+
+.navbar-default .navbar-nav li a:hover,
+.btn-primary,
+.btn-primary.btn-outline {
+    color: rgb(0,81,144);
+}
+
+/* Articles */
+
+.article-title a {
+    color: #151515;
+}
+
+.article-metadata a {
+    color: #888;
+}
+
+.article-metadata a:hover {
+    color: rgb(0,81,144);
+}
+
+/* Standard buttons */
+
+.btn-primary,
+.btn-primary.btn-outline {
+    border-color: rgb(0,81,144);
+}
+
+/* Hover buttons */
+
+.btn-primary.btn-outline:hover {
+    border-color: rgb(0,81,144);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.btn-primary.btn-outline:active {
+    background-color: rgb(0,81,144);
+}
+
+/* Square project and teaching cards */
+
+.card .card-image {
+    aspect-ratio: 1 / 1;
+    min-height: 0;
+    overflow: hidden;
+    background: #111;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .card-text {
+    min-height: 135px;
+}
+
+/* Compact page header banners */
+
+.article-header {
+    max-height: 260px;
+    overflow: hidden;
+    background: #111;
+}
+
+.article-header .article-banner {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 767px) {
+    .article-header,
+    .article-header .article-banner {
+        height: 180px;
+        max-height: 180px;
+    }
+}
+
+/* Teaching institution badges */
+
+.institution-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.75rem 0 1.25rem;
+}
+
+.institution-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid rgba(0,81,144,0.18);
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    background: rgba(0,81,144,0.04);
+    color: #333;
+    font-size: 0.78rem;
+    line-height: 1.35;
+}
