@@ -51,4 +51,4 @@ filter_default = 0
 +++
 
 
-My research connects experimental biology, functional genomics and computational modelling to understand how metabolic states reshape regulatory networks. Across projects, I combine molecular and cellular biology with RNA-seq, ATAC-seq, CUT&RUN, ChIP-seq, metabolomics, quantitative genetics and machine-learning strategies to move from omic profiles to mechanistic hypotheses.
+My research connects **experimental biology**, **functional genomics** and **computational modelling** to understand how **metabolic states** reshape **regulatory networks**. Across projects, I combine molecular and cellular biology with **RNA-seq**, **ATAC-seq**, **CUT&RUN**, **ChIP-seq**, **metabolomics**, **quantitative genetics** and **machine-learning** strategies to move from **omic profiles** to **mechanistic hypotheses**.

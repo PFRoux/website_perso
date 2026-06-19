@@ -35,4 +35,4 @@ filter_default = 0
   
 +++
 
-My teaching connects molecular mechanisms with practical data analysis. I focus on helping biologists move from a biological question to an experimental strategy, a reproducible workflow and a critical interpretation of the results.
+My teaching connects **molecular mechanisms** with **practical data analysis**. I focus on helping biologists move from a **biological question** to an **experimental strategy**, a **reproducible workflow** and a **critical interpretation** of the results.

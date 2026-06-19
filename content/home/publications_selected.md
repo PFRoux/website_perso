@@ -12,4 +12,4 @@ list_format = 3
 publication_type = "-1"
 +++
 
-Selected papers highlighting the main biological questions and methodological approaches developed across my research trajectory.
+Selected papers highlighting the main **biological questions** and **methodological approaches** developed across my research trajectory.

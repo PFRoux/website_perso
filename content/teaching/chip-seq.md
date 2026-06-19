@@ -30,35 +30,35 @@ image = "teaching-epigenomics.jpg"
 +++
 
 
-To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by [Agrocampus Ouest](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staff in 2014 and have since contributed to yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+To support **molecular and cell biologists** in their quest for autonomy when dealing with **bio-informatics**, **bio-statistics**, **genomics** or **systems biology**, Pr Sandrine Lagarrigue - supported by [**Agrocampus Ouest**](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staff in **2014** and have since contributed to yearly training days on **sequence bio-informatics** and **statistical analyses for genomic and epigenomic data**.
 
-The workshop dedicated to epigenomic data analysis addresses the following topics:
+The workshop dedicated to **epigenomic data analysis** addresses the following topics:
 
 <div class="institution-badges">
   <span class="institution-badge"><i class="fa fa-university"></i> Institut Agro Rennes-Angers, continuing education Omic & NGS, since 2014</span>
   <span class="institution-badge"><i class="fa fa-university"></i> SIRIC Montpellier Cancer, ATAC-seq practical training, since 2025</span>
 </div>
 
-* Introduction to epigenome screening technologies (ChIP-seq, ATAC-seq, MNase-seq ...)
-* Biases and noise in sequencing data
-* Introduction to UNIX environment and Bash scripting
+* Introduction to **epigenome screening technologies** (**ChIP-seq**, **ATAC-seq**, **MNase-seq** ...)
+* **Biases and noise** in sequencing data
+* Introduction to **UNIX environment** and **Bash scripting**
 * Work on a cluster with job schedulers (SLURM and SGE)
 * Use parallel environments
 * Use genomic databases (Ensembl, UCSC)
-* Quality check of ChIP-seq data
-* Pre-processing and alignment of ChIP-seq data
-* Peak calling
-* Irreproducible discovery rate
-* Use of R Bioconductor for functional genomics
-* Normalization strategies for epigenomic assays (RPM, TMM, Lowess)
-* Functional enrichment for epigenomic assays
-* Motif enrichement analysis
+* **Quality check** of ChIP-seq data
+* **Pre-processing and alignment** of ChIP-seq data
+* **Peak calling**
+* **Irreproducible discovery rate**
+* Use of **R Bioconductor** for functional genomics
+* **Normalization strategies** for epigenomic assays (RPM, TMM, Lowess)
+* **Functional enrichment** for epigenomic assays
+* **Motif enrichment analysis**
 
-The pedagogical objective is to help experimental biologists understand what each computational step actually measures. Rather than presenting pipelines as black boxes, the course links library preparation, assay-specific biases, alignment choices, normalization, peak calling and downstream interpretation to concrete biological questions.
+The pedagogical objective is to help **experimental biologists** understand what each computational step actually measures. Rather than presenting pipelines as black boxes, the course links **library preparation**, **assay-specific biases**, **alignment choices**, **normalization**, **peak calling** and downstream interpretation to concrete biological questions.
 
-In recent teaching activities, I have also extended this logic to ATAC-seq-focused training, including chromatin accessibility, nucleosome positioning, transcription factor footprinting and the interpretation of peak-centered functional enrichment analyses.
+In recent teaching activities, I have also extended this logic to **ATAC-seq-focused training**, including **chromatin accessibility**, **nucleosome positioning**, **transcription factor footprinting** and the interpretation of peak-centered functional enrichment analyses.
 
-Below, you will find slides from our last ChIP-seq workshop (*in french*).
+Below, you will find slides from our last **ChIP-seq workshop** (*in french*).
 
 **Day 1**
 <script async class="speakerdeck-embed" data-id="7815e4704cc34aa086bc8eff4ec8b36e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
