@@ -34,7 +34,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = []
+projects = ["skin_microbiome_metabolome"]
 
 # Links (optional).
 url_pdf = "https://reader.elsevier.com/reader/sd/pii/S0022202X21016663?token=5FE8B7EC78F29664D7D5BE6ED5BA58FF7ACD550A7C1F2B50C003A96A948E82C313034A44E479F4380FE48E4B251640B3&originRegion=eu-west-1&originCreation=20220125083436"
@@ -60,4 +60,3 @@ image = ""
 caption = ""
 
 +++
-

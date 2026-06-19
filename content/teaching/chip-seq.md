@@ -11,7 +11,7 @@ title = "Epigenomic data analysis with UNIX and R"
 summary = "Hands-on training in ChIP-seq, ATAC-seq and MNase-seq analysis, from sequencing quality control to peak calling, normalization and functional interpretation."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "pay-937884_640.jpg"
+image_preview = "teaching-epigenomics.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -25,7 +25,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
+image = "teaching-epigenomics.jpg"
 
 +++
 
@@ -48,6 +48,10 @@ The workshop dedicated to epigenomic data analysis addresses the following topic
 * Normalization strategies for epigenomic assays (RPM, TMM, Lowess)
 * Functional enrichment for epigenomic assays
 * Motif enrichement analysis
+
+The pedagogical objective is to help experimental biologists understand what each computational step actually measures. Rather than presenting pipelines as black boxes, the course links library preparation, assay-specific biases, alignment choices, normalization, peak calling and downstream interpretation to concrete biological questions.
+
+In recent teaching activities, I have also extended this logic to ATAC-seq-focused training, including chromatin accessibility, nucleosome positioning, transcription factor footprinting and the interpretation of peak-centered functional enrichment analyses.
 
 Below, you will find slides from our last ChIP-seq workshop (*in french*).
 

@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Research Projects"
-subtitle = "Three research threads linking multi-omic data, gene regulation and complex phenotypes."
+subtitle = "Metabolism, genome regulation and integrative omics across aging, cancer and skin biology."
 
 # Order that this section will appear in.
 weight = 15
@@ -35,16 +35,20 @@ filter_default = 0
 [[filter]]
   name = "Senescence"
   tag = ".senescence"
-  
-[[filter]]
-  name = "RNA editing"
-  tag = ".editing"
 
 [[filter]]
-  name = "WGS and QTLs"
-  tag = ".QTL"
+  name = "Aging"
+  tag = ".aging"
+  
+[[filter]]
+  name = "Functional genomics"
+  tag = ".genomics"
+
+[[filter]]
+  name = "Skin biology"
+  tag = ".skin"
   
 +++
 
 
-My work connects experimental biology and computational analysis, from genome-wide assays to integrative models of regulatory networks.
+My research connects experimental biology, functional genomics and computational modelling to understand how metabolic states reshape regulatory networks. Across projects, I combine molecular and cellular biology with RNA-seq, ATAC-seq, CUT&RUN, ChIP-seq, metabolomics, quantitative genetics and machine-learning strategies to move from omic profiles to mechanistic hypotheses.

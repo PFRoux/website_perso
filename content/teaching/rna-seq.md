@@ -11,7 +11,7 @@ title = "In silico in-depth analyses of transcriptomic data with UNIX"
 summary = "Practical training for biologists in RNA-seq data analysis with UNIX, from raw data quality control to alignment, variant calling and transcript model inference."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "puzzle-2500333_640.jpg"
+image_preview = "teaching-rnaseq.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -25,7 +25,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
+image = "teaching-rnaseq.jpg"
 
 +++
 
@@ -42,10 +42,12 @@ The workshop dedicated to RNA-seq analysis addresses the following topics:
 * Variant calling on RNA-seq data
 * Infer transcript models from RNA-seq data
 
+The course is designed for biologists who need to understand the logic of RNA-seq analyses even when they are not full-time bioinformaticians. I therefore emphasize the relationship between experimental design, biological replication, sequencing depth, quality control, mapping strategy and interpretation of downstream results.
+
+At more advanced levels, this teaching can be extended toward differential expression, dimensionality reduction, functional enrichment and the construction of a coherent scientific narrative from RNA-seq figures such as PCA plots, heatmaps and volcano plots.
+
 Below, you will find slides from our last RNA-seq workshop (*in french*).
 
 
 <script async class="speakerdeck-embed" data-id="9bd15966e78e42b8a95a7260f4b2d924" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
-
-
 

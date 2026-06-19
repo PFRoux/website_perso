@@ -11,7 +11,7 @@ title = "Visualisation of genomic data with ggplot"
 summary = "Training in data visualization with R and ggplot, with emphasis on readable figures, exploratory analysis and reproducible communication of genomic data."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "background-2462432_640.jpg"
+image_preview = "teaching-dataviz.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -25,10 +25,12 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
+image = "teaching-dataviz.jpg"
 
 +++
 
 This teaching focuses on the practical use of R and ggplot to explore, represent and communicate biological data. The goal is not only to produce attractive figures, but to choose representations that match the biological question, expose the structure of the data and support a clear scientific argument.
 
 Topics include tidy data principles, layered graphics, scatter plots, boxplots, heatmaps, faceting, annotation, color scales and export of publication-ready figures.
+
+I use visualization as an entry point into scientific reasoning: what comparison is being made, which variable carries the biological effect, which uncertainty should be shown, and what the figure does or does not demonstrate. This makes the course useful both for beginners learning R and for students preparing reports, posters or publication-style figures.

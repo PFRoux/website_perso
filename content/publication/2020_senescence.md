@@ -34,7 +34,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#projects = ["deep-learning"]
+projects = ["senescence"]
 
 # Links (optional).
 url_pdf = "https://www.nature.com/articles/s41556-020-0529-5"
@@ -60,4 +60,3 @@ image = ""
 caption = ""
 
 +++
-
