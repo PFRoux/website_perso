@@ -1,150 +1,222 @@
 %PDF-1.4
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
-endobj
-2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
-endobj
-3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
-4 0 obj
+2 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
+3 0 obj
+<< /Length 7075 >>
+stream
+BT /F2 18.0 Tf 0 0.318 0.565 rg 42.0 800.0 Td (Pierre-Francois Roux) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 772.1 Td (Epigeneticist & in silico biologist | PhD in Genetics and Genomics | Qualified in CNU) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 760.1 Td (sections 64 and 65) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 748.1 Td (IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 736.1 Td (pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 717.2 Td (RESEARCH PROFILE) Tj ET
+0.84 0.87 0.89 RG 42.0 706.5 m 553.0 706.5 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 700.5 Td (I study how metabolic states shape gene regulation, chromatin organization and cell fate) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 688.6 Td (decisions in aging, cancer and skin biology. My work combines experimental molecular) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 676.6 Td (biology, functional genomics, multi-omics integration, bioinformatics, systems biology and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 664.6 Td (machine-learning approaches. My current research focuses on p53/E4F1-mediated metabolic-) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 652.7 Td (epigenetic coupling during senescence and on ATAC-seq-derived signatures of aging, frailty) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 640.7 Td (and tumor evolution.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 621.7 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.84 0.87 0.89 RG 42.0 611.1 m 553.0 611.1 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 605.1 Td (2021-present Research Scientist, Molecular Oncogenesis, IRCM - Inserm U1194, Montpellier.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 593.1 Td (PI: Dr Laurent Le Cam. Ex vivo and in vitro analysis of p53-dependent epigenetic and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 581.2 Td (metabolic reprogramming during senescence and aging, with emphasis on E4F1-mediated) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 569.2 Td (regulation of acetyl-CoA synthesis, chromatin remodeling and senescence programs. Approaches) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 557.2 Td (include ATAC-seq, CUT&RUN, RNA-seq, metabolomics, cell models and in vivo aging models.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 543.2 Td (2019-2021 Research Scientist, Upstream Skin Research & Innovation, Johnson & Johnson, Val-) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 531.3 Td (de-Reuil.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 519.3 Td (PIs: Dr Georgios Stamatas and Dr Thierry Oddos. Pre-clinical and clinical skin biology) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 507.3 Td (research based on multi-omics cohorts, integrating microbiome, metabolome, transcriptome and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 495.4 Td (phenome data to study skin maturation, barrier function, inflammatory risk and translational) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 483.4 Td (biomarkers.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 469.4 Td (2015-2019 Postdoctoral Researcher, Nuclear Organization and Oncogenesis, Institut Pasteur /) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 457.5 Td (Inserm U993, Paris.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 445.5 Td (PIs: Dr Anne Dejean and Dr Oliver Bischof. Multidimensional and temporal profiling of) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 433.5 Td (transcriptome and epigenome organization during cellular senescence in human fibroblasts) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 421.5 Td (exposed to distinct stresses and environments, using ATAC-seq, ChIP-seq, transcriptomics,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 409.6 Td (metabolomics, proteomics and network inference.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 395.6 Td (2011-2014 PhD, Genetics and Genomics, INRAe - Institut Agro 1348 PEGASE, Rennes.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 383.6 Td (PIs: Prof Sandrine Lagarrigue and Dr Olivier Demeure. Detection of genome-scale single) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 371.7 Td (nucleotide polymorphisms for genetic dissection of complex traits and characterization of) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 359.7 Td (editomes, combining RNA-seq, whole-genome resequencing, QTL fine mapping, cis-eQTL analysis) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 347.7 Td (and variant annotation.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 333.8 Td (2010 MEng trainee, IRSET, Rennes.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 321.8 Td (PI: Dr Corine Martin-Chouly. Characterization of lipid metabolism, lipidome and cytokine) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 309.8 Td (responses in primary macrophages from patients with cystic fibrosis during inflammatory and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 297.8 Td (infectious contexts.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 283.9 Td (2009 MSc trainee, UQAM BioMed, Montreal.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 271.9 Td (PIs: Prof Catherine Mounier and Dr Daniel Mauvoisin. Study of the role of Stearoyl-CoA) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 259.9 Td (Desaturase 1 in adipocyte maturation using stable knock-down in murine pre-adipocytes.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 241.0 Td (EDUCATION AND TRAINING) Tj ET
+0.84 0.87 0.89 RG 42.0 230.3 m 553.0 230.3 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 224.3 Td (- 2022 Animal experimentation training, designer level, BioCampus Montpellier.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 211.4 Td (- 2014 PhD in Genetics and Genomics, Institut Agro Rennes-Angers.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 198.4 Td (- 2011 MEng in Agronomical Science, Institut Agro Rennes-Angers.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 185.4 Td (- 2011 MSc in Cell and Molecular Biology, Universite Rennes 1.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 172.5 Td (- 2009 MSc in Marine Biology and Biological Oceanography, Universite Lille 1.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 159.5 Td (- 2008 BSc in Biology of Organisms and Populations, Universite Lille.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 146.5 Td (- 2004-2006 French CPGE BCPST-Veto, Lycee Albert Chatelet.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 128.5 Td (RESEARCH CONTRIBUTIONS) Tj ET
+0.84 0.87 0.89 RG 42.0 117.9 m 553.0 117.9 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 111.9 Td (- p53/E4F1, metabolism and senescence: investigated how E4F1 connects p53/pRB signaling,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 99.9 Td (pyruvate metabolism, acetyl-CoA production and chromatin regulation during senescence.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 87.0 Td (- ATAC-seq as an integrative assay: established bulk ATAC-seq as a dual genetic and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 75.0 Td (epigenetic platform capturing chromatin accessibility, variants, CNVs, mitochondrial) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 63.0 Td (features and telomere-associated signals.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 50.1 Td (- Systems view of senescence: developed temporal multi-omic analyses identifying enhancer) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 6943 >>
+stream
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 800.0 Td (remodeling and AP-1-centered regulatory circuits as key determinants of oncogene-induced) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 788.0 Td (senescence.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 775.1 Td (- Skin microbiome and metabolome: integrated microbiome and metabolome profiles to) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 763.1 Td (identify microbe-metabolite clusters relevant to skin physiology and early-life skin) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 751.1 Td (maturation.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 738.1 Td (- Quantitative genetics: combined QTL mapping, WGS, selection signatures, variant) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 726.2 Td (annotation and eQTL analyses to prioritize causal genes for adiposity and energy) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 714.2 Td (metabolism.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 701.2 Td (- RNA editing: developed stringent WGS/RNA-seq strategies to distinguish genuine RNA) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 689.3 Td (editing events from sequencing and mapping artifacts.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 671.3 Td (PUBLICATIONS AND VALORIZATION) Tj ET
+0.84 0.87 0.89 RG 42.0 660.7 m 553.0 660.7 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 654.7 Td (- 24 original research articles, including 7 first or co-first author publications and 1) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 642.7 Td (last/corresponding author publication.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 629.7 Td (- 2 review articles, 1 didactic article, 1 radio communication and 4 patents.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 616.8 Td (- Major journals include NAR Genomics and Bioinformatics, Nature Communications, Nature) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 604.8 Td (Aging, Journal of Investigative Dermatology, Nature Cell Biology, Nature, Cell and Cell) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 592.8 Td (Genomics.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 574.8 Td (SELECTED PUBLICATIONS) Tj ET
+0.84 0.87 0.89 RG 42.0 564.2 m 553.0 564.2 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 558.2 Td (- Toumi I., Kham C., Stuani L., Le Cam L., Roux P.F. Beyond chromatin accessibility: bulk) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 546.2 Td (ATAC-seq as an integrative assay to portray genomes and epigenomes. NAR Genomics and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 534.3 Td (Bioinformatics, 2026. Last and corresponding author.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 521.3 Td (- Di Michele M., Attina A., Roux P.F. et al. E4F1 coordinates pyruvate metabolism and the) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 509.3 Td (activity of the elongator complex to ensure translation fidelity during brain) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 497.4 Td (development. Nature Communications, 2025. Co-second author.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 484.4 Td (- Guerrero A. et al. 3-Deazaadenosine alleviates senescence to promote cellular fitness) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 472.4 Td (and cell therapy efficiency in mice. Nature Aging, 2022.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 459.5 Td (- Roux P.F., Oddos T., Stamatas G. Deciphering the role of skin surface microbiome on) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 447.5 Td (skin health: an integrative multi-omics approach reveals three microbial/metabolic) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 435.5 Td (clusters. Journal of Investigative Dermatology, 2021. First author.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 422.5 Td (- Martinez-Zamudio R.I., Roux P.F. et al. AP-1 imprints a reversible transcriptional) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 410.6 Td (programme of senescent cells. Nature Cell Biology, 2020. Co-first author.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 397.6 Td (- Heinzmann F. et al. Necroptosis microenvironment determines lineage commitment in liver) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 385.6 Td (cancer. Nature, 2018.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 372.7 Td (- Martinez-Zamudio R.I., Robinson L., Roux P.F., Bischof O. Snapshot: cellular senescence) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 360.7 Td (pathways / in pathophysiology. Cell, 2017.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 347.7 Td (- Roux P.F. et al. Combined QTL and selective sweep mappings with coding SNP annotation) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 335.8 Td (and cis-eQTL analysis revealed PARK2 and JAG2 as candidate genes for adiposity) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 323.8 Td (regulation. G3, 2015. First author.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 305.8 Td (FUNDING) Tj ET
+0.84 0.87 0.89 RG 42.0 295.2 m 553.0 295.2 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 289.2 Td (- Submitted: ANR 2026 project on metabolism-epigenome interactions during cellular) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 277.2 Td (senescence and aging.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 264.2 Td (- Submitted: Canceropole Grand Sud-Ouest 2026 project on integrative tumor profiling by) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 252.3 Td (ATAC-seq for actionable signatures.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 239.3 Td (- Acquired: ANR 2019 S-ENCODE project on deciphering the senescence code to improve) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 227.3 Td (healthy lifespan.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 209.4 Td (TEACHING) Tj ET
+0.84 0.87 0.89 RG 42.0 198.7 m 553.0 198.7 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 192.7 Td (- Since 2025 - SIRIC Montpellier Cancer: "Unlocking epigenomic insights: ATAC-seq data) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 180.8 Td (analysis in practice", practical training for cancer researchers and clinicians.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 167.8 Td (- Since 2021 - Universite de Montpellier: molecular basis of cellular senescence and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 155.8 Td (aging; Master 2 Biology-Health students; lecture.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 142.9 Td (- Institut Agro Rennes-Angers / Agrocampus Ouest: ChIP-seq and ATAC-seq data analysis) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 130.9 Td (with UNIX and Bioconductor; RNA-seq processing with a reference genome; continuing) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 118.9 Td (education, lectures and practical work.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 105.9 Td (- Institut Agro Rennes-Angers / Agrocampus Ouest: methodologies for molecular and cell) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 94.0 Td (biology; high-throughput technologies for studying living systems; bioinformatics; MEng) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 82.0 Td (students, lectures and practical work.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 69.0 Td (- Universite Paris Diderot: epigenomics for cancer research and clinic; MD students, MSc) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 57.1 Td (students and health professionals.) Tj ET
+endstream
+endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+<< /Length 4584 >>
+stream
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 800.0 Td (- 2012 - Universite Rennes 1: probing the transcriptome with microarrays; Master 1 Cell) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 788.0 Td (and Molecular Biology students; lecture and practical work.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 770.1 Td (SUPERVISION AND TRAINING) Tj ET
+0.84 0.87 0.89 RG 42.0 759.4 m 553.0 759.4 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 753.4 Td (- Co-supervision of 1 PhD student on aging, cellular senescence and metabolic) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 741.5 Td (adaptability.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 728.5 Td (- Supervision of 7 Master 2 internships in bioinformatics, epigenomics, cancer biology) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 716.5 Td (and structural genomics.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 703.5 Td (- Supervision of 2 Master 1 internships in molecular and cellular biology.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 690.6 Td (- Member of a PhD thesis committee.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 672.6 Td (SCIENTIFIC ANIMATION, RESPONSIBILITIES AND SERVICE) Tj ET
+0.84 0.87 0.89 RG 42.0 662.0 m 553.0 662.0 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 656.0 Td (- Invited seminars on senescence systems biology and metabolic reprogramming at TOXALIM,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 644.0 Td (IRCM and the London Institute of Medical Science - Imperial College.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 631.0 Td (- Talks at international meetings including the International Cell Senescence) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 619.1 Td (Association, Plant and Animal Genetics, European Federation of Animal Science and) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 607.1 Td (European Symposium on Poultry Genetics.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 594.1 Td (- Poster communications at Euro Geroscience, International Cell Senescence Association,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 582.2 Td (AVIESAN modeling workshop, American Society of Human Genetics and European Federation of) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 570.2 Td (Animal Science.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 557.2 Td (- Participation in conference organization, scientific events and collaborative research) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 545.2 Td (networks.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 532.3 Td (- Editorial and peer-review activities for scientific journals.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 519.3 Td (- Involvement in professional equality and mentoring actions, including Femmes & Sciences) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 507.3 Td (mentoring.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 489.4 Td (PATENTS) Tj ET
+0.84 0.87 0.89 RG 42.0 478.7 m 553.0 478.7 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 472.7 Td (- 2022 Biomarkers predictive of atopic dermatitis, JCO6146USPSP1, pending.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 459.8 Td (- 2021 Use of microbiome and metabolome clusters to evaluate skin health,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 447.8 Td (US20220142560A1, published.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 434.8 Td (- 2021 Use of biomarkers to evaluate the efficacy of a composition reducing the effects) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 422.9 Td (of cancer therapeutics on skin, US20220057383A1, published.) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 409.9 Td (- 2021 Non-invasive method to evaluate surface skin miRNome and transcriptome,) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 52.0 397.9 Td (EP21306470.2.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 379.9 Td (TECHNICAL SKILLS) Tj ET
+0.84 0.87 0.89 RG 42.0 369.3 m 553.0 369.3 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 363.3 Td (Epigenomics; genomics; genetics; aging; cellular senescence; cancer biology; skin biology;) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 351.3 Td (systems biology; RNA-seq; ATAC-seq; CUT&RUN; ChIP-seq; MNase-seq; WGS; QTL mapping; cis-) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 339.4 Td (eQTL; metabolomics; microbiome profiling; UNIX; R/Bioconductor; reproducible workflows;) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 327.4 Td (multi-omics integration; network inference; dimensionality reduction; feature selection;) Tj ET
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 315.4 Td (machine learning; cell culture; primary cells; bench work; in vivo mouse models.) Tj ET
+BT /F2 11.0 Tf 0 0.318 0.565 rg 42.0 296.5 Td (LANGUAGES) Tj ET
+0.84 0.87 0.89 RG 42.0 285.8 m 553.0 285.8 l S
+BT /F1 9.0 Tf 0.12 0.16 0.2 rg 42.0 279.8 Td (French: native. English: fluent.) Tj ET
+endstream
 endobj
 6 0 obj
-<< /Length 7324 >>
-stream
-BT
-0.000 0.318 0.565 rg /F2 22 Tf 1 0 0 1 46 790 Tm (Pierre-Francois Roux) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 763.0 Tm (PhD in Genetics and Genomics | Qualified in CNU sections 64 and 65) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 749.8 Tm (IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 736.5999999999999 Tm (pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 716.3999999999999 Tm (RESEARCH PROFILE) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 699.8999999999999 Tm (I study how metabolic states shape gene regulation, chromatin organization and cell fate decisions in aging,) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 686.6999999999998 Tm (cancer and skin biology. My work combines experimental molecular biology with functional genomics, multi-) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 673.4999999999998 Tm (omics integration, bioinformatics, systems biology and machine-learning approaches. My current research) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 660.2999999999997 Tm (focuses on p53/E4F1-mediated metabolic-epigenetic coupling during senescence and on ATAC-seq-derived) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 647.0999999999997 Tm (signatures of aging, frailty and tumor evolution.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 626.8999999999996 Tm (PROFESSIONAL EXPERIENCE) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 610.3999999999996 Tm (2021-present Research Scientist, Molecular Oncogenesis, IRCM - Inserm U1194, Montpellier.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 597.1999999999996 Tm (p53-mediated metabolic reprogramming during senescence and aging; E4F1, pyruvate metabolism, acetyl-CoA,) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 583.9999999999995 Tm (chromatin acetylation, ATAC-seq, CUT&RUN, RNA-seq, metabolomics and in vivo aging models.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 570.7999999999995 Tm (2019-2021 Research Scientist, Upstream Skin Research & Innovation, Johnson & Johnson, Val-de-Reuil.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 557.5999999999995 Tm (Integrative microbiome/metabolome studies of skin physiology, skin maturation, barrier function,) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 544.3999999999994 Tm (inflammatory risk and translational biomarker discovery.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 531.1999999999994 Tm (2015-2019 Postdoctoral Researcher, Institut Pasteur / Inserm U993, Nuclear Organization and Oncogenesis,) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 517.9999999999993 Tm (Paris.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 504.79999999999933 Tm (Time-resolved multi-omic profiling of cellular senescence; enhancer dynamics, AP-1 regulatory circuits,) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 491.59999999999934 Tm (chromatin remodeling, transcriptomics, metabolomics and network inference.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 478.39999999999935 Tm (2011-2014 PhD, INRAe - Institut Agro 1348 PEGASE, Rennes.) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 465.19999999999936 Tm (Quantitative genetics, whole-genome sequencing, QTL fine mapping, cis-eQTL analysis and RNA editing in) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 451.9999999999994 Tm (complex metabolic traits.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 431.7999999999994 Tm (EDUCATION AND TRAINING) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 415.2999999999994 Tm (- 2022 Animal experimentation training, designer level, BioCampus Montpellier.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 402.2999999999994 Tm (- 2014 PhD in Genetics and Genomics, Institut Agro Rennes-Angers.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 389.2999999999994 Tm (- 2011 MEng in Agronomical Science, Institut Agro Rennes-Angers.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 376.2999999999994 Tm (- 2011 MSc in Cell and Molecular Biology, Universite Rennes 1.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 363.2999999999994 Tm (- 2009 MSc in Environment and Oceanology, Universite Lille 1.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 350.2999999999994 Tm (- 2008 BSc in Biology of Organisms and Populations, Universite Lille.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 330.2999999999994 Tm (RESEARCH CONTRIBUTIONS) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 313.7999999999994 Tm (- p53/E4F1, metabolism and senescence: investigated how E4F1 connects p53/pRB signaling, pyruvate) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 300.7999999999994 Tm (  metabolism, acetyl-CoA production and chromatin regulation during senescence.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 287.7999999999994 Tm (- ATAC-seq as an integrative assay: established bulk ATAC-seq as a dual genetic and epigenetic platform) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 274.7999999999994 Tm (  capturing chromatin accessibility, variants, CNVs, mitochondrial features and telomere-associated) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 261.7999999999994 Tm (  signals.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 248.7999999999994 Tm (- Systems view of senescence: developed temporal multi-omic analyses identifying enhancer remodeling and) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 235.7999999999994 Tm (  AP-1-centered regulatory circuits as key determinants of oncogene-induced senescence.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 222.7999999999994 Tm (- Skin microbiome and metabolome: integrated microbiome and metabolome profiles to identify microbe-) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 209.7999999999994 Tm (  metabolite clusters relevant to skin physiology and early-life skin maturation.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 196.7999999999994 Tm (- Quantitative genetics: combined QTL mapping, WGS, selection signatures, variant annotation and eQTL) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 183.7999999999994 Tm (  analyses to prioritize causal genes for adiposity and energy metabolism.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 170.7999999999994 Tm (- RNA editing: developed stringent WGS/RNA-seq strategies to distinguish genuine RNA editing events from) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 157.7999999999994 Tm (  sequencing and mapping artifacts.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 137.7999999999994 Tm (PUBLICATIONS AND VALORIZATION) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 121.29999999999939 Tm (- 24 original research articles, including 7 first or co-first author publications and 1) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 108.29999999999939 Tm (  last/corresponding author publication.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 95.29999999999939 Tm (- 2 review articles, 1 didactic article, 1 radio communication and 4 patents.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 82.29999999999939 Tm (- Major journals include NAR Genomics and Bioinformatics, Nature Communications, Nature Aging, Journal of) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 69.29999999999939 Tm (  Investigative Dermatology, Nature Cell Biology, Nature, Cell and Cell Genomics.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 49.299999999999386 Tm (SELECTED PUBLICATIONS) Tj
-ET
-endstream
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
 endobj
 8 0 obj
-<< /Length 6282 >>
-stream
-BT
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 790 Tm (- Toumi I., Kham C., Stuani L., Le Cam L., Roux P.F. Beyond chromatin accessibility: bulk ATAC-seq as an) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 777.0 Tm (  integrative assay to portray genomes and epigenomes. NAR Genomics and Bioinformatics, 2026. Last and) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 764.0 Tm (  corresponding author.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 751.0 Tm (- Di Michele M., Attina A., Roux P.F. et al. E4F1 coordinates pyruvate metabolism and the activity of the) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 738.0 Tm (  elongator complex to ensure translation fidelity during brain development. Nature Communications, 2025.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 725.0 Tm (  Co-second author.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 712.0 Tm (- Guerrero A. et al. 3-Deazaadenosine alleviates senescence to promote cellular fitness and cell therapy) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 699.0 Tm (  efficiency in mice. Nature Aging, 2022.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 686.0 Tm (- Roux P.F., Oddos T., Stamatas G. Deciphering the role of skin surface microbiome on skin health: an) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 673.0 Tm (  integrative multi-omics approach reveals three microbial/metabolic clusters. Journal of Investigative) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 660.0 Tm (  Dermatology, 2021. First author.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 647.0 Tm (- Martinez-Zamudio R.I., Roux P.F. et al. AP-1 imprints a reversible transcriptional programme of) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 634.0 Tm (  senescent cells. Nature Cell Biology, 2020. Co-first author.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 621.0 Tm (- Heinzmann F. et al. Necroptosis microenvironment determines lineage commitment in liver cancer. Nature,) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 608.0 Tm (  2018.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 595.0 Tm (- Martinez-Zamudio R.I., Robinson L., Roux P.F., Bischof O. Snapshot: cellular senescence pathways / in) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 582.0 Tm (  pathophysiology. Cell, 2017.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 569.0 Tm (- Roux P.F. et al. Combined QTL and selective sweep mappings with coding SNP annotation and cis-eQTL) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 556.0 Tm (  analysis revealed PARK2 and JAG2 as candidate genes for adiposity regulation. G3, 2015. First author.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 536.0 Tm (FUNDING) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 519.5 Tm (- Submitted: ANR 2026 project on metabolism-epigenome interactions during cellular senescence and aging.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 506.5 Tm (- Submitted: Canceropole Grand Sud-Ouest 2026 project on integrative tumor profiling by ATAC-seq for) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 493.5 Tm (  actionable signatures.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 480.5 Tm (- Acquired: ANR 2019 S-ENCODE project on deciphering the senescence code to improve healthy lifespan.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 460.5 Tm (TEACHING) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 444.0 Tm (- Universite de Montpellier: Master 2 Biology-Health, molecular basis of cellular senescence and aging,) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 431.0 Tm (  lecture, 4 h, 2021.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 418.0 Tm (- Institut Agro Rennes-Angers: engineering students and continuing education, RNA-seq, ChIP-seq, ATAC-) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 405.0 Tm (  seq, UNIX/R and genomic data analysis, since 2014.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 392.0 Tm (- Universite Rennes 1: Master 1 Cell and Molecular Biology, practical/statistical training, 16 h, 2012.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 379.0 Tm (- SIRIC Montpellier Cancer: Unlocking epigenomic insights: ATAC-seq data analysis in practice, practical) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 366.0 Tm (  training, since 2025.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 346.0 Tm (SUPERVISION AND TRAINING) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 329.5 Tm (- Co-supervision of 1 PhD student on aging, cellular senescence and metabolic adaptability.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 316.5 Tm (- Supervision of 7 Master 2 internships in bioinformatics, epigenomics, cancer biology and structural) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 303.5 Tm (  genomics.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 290.5 Tm (- Supervision of 2 Master 1 internships in molecular and cellular biology.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 277.5 Tm (- Member of a PhD thesis committee.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 257.5 Tm (SCIENTIFIC ANIMATION, RESPONSIBILITIES AND SERVICE) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 241.0 Tm (- Invited seminars at international research institutes on systems views of senescence and metabolic) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 228.0 Tm (  reprogramming.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 215.0 Tm (- Participation in conference organization, scientific events and collaborative research networks.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 202.0 Tm (- Editorial and peer-review activities for scientific journals.) Tj
-0.120 0.160 0.200 rg /F1 9.0 Tf 1 0 0 1 54 189.0 Tm (- Involvement in professional equality and mentoring actions, including Femmes & Sciences mentoring.) Tj
-0.000 0.318 0.565 rg /F2 11.5 Tf 1 0 0 1 46 169.0 Tm (TECHNICAL SKILLS) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 152.5 Tm (Functional genomics; RNA-seq; ATAC-seq; CUT&RUN; ChIP-seq; MNase-seq; WGS; QTL mapping; cis-eQTL;) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 139.3 Tm (metabolomics; microbiome profiling; UNIX; R/Bioconductor; reproducible workflows; multi-omics integration;) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 126.10000000000001 Tm (network inference; dimensionality reduction; feature selection; machine learning; cellular senescence) Tj
-0.120 0.160 0.200 rg /F1 9.2 Tf 1 0 0 1 46 112.9 Tm (models; primary cells; mouse models.) Tj
-ET
-endstream
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R 8 0 R] /Count 3 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
 endobj
 xref
-0 9
+0 11
 0000000000 65535 f 
 0000000009 00000 n 
-0000000058 00000 n 
-0000000121 00000 n 
-0000000191 00000 n 
-0000000266 00000 n 
-0000000402 00000 n 
-0000007778 00000 n 
-0000007914 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000007281 00000 n 
+0000014276 00000 n 
+0000018912 00000 n 
+0000019048 00000 n 
+0000019184 00000 n 
+0000019320 00000 n 
+0000019389 00000 n 
 trailer
-<< /Size 9 /Root 1 0 R >>
+<< /Size 11 /Root 10 0 R >>
 startxref
-14248
+19439
 %%EOF
