@@ -5,10 +5,10 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Teaching"
-subtitle = ""
+subtitle = "Molecular biology, functional genomics, bioinformatics and omics data analysis."
 
 # Order that this section will appear in.
-weight = 50
+weight = 40
 
 # Content.
 # Display content from the following folder.
@@ -29,9 +29,10 @@ filter_default = 0
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
-  name = "Xomics"
+  name = "All"
   tag = "*"
 
   
 +++
 
+My teaching connects molecular mechanisms with practical data analysis. I focus on helping biologists move from a biological question to an experimental strategy, a reproducible workflow and a critical interpretation of the results.

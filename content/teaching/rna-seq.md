@@ -8,7 +8,7 @@ date = 2016-04-27T00:00:00
 title = "In silico in-depth analyses of transcriptomic data with UNIX"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Practical training for biologists in RNA-seq data analysis with UNIX, from raw data quality control to alignment, variant calling and transcript model inference."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "puzzle-2500333_640.jpg"
@@ -29,9 +29,9 @@ image = "headers/bubbles-wide.jpg"
 
 +++
 
-To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by [Agrocampus Ouest](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by [Agrocampus Ouest](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staff in 2014 and have since contributed to yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
 
-The workshop dedicated to RNA-seq analysis address the following topics:
+The workshop dedicated to RNA-seq analysis addresses the following topics:
 
 * Introduction to UNIX environment and Bash scripting
 * Work on a cluster with job schedulers (SLURM and SGE)
@@ -46,7 +46,6 @@ Below, you will find slides from our last RNA-seq workshop (*in french*).
 
 
 <script async class="speakerdeck-embed" data-id="9bd15966e78e42b8a95a7260f4b2d924" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
-
 
 
 

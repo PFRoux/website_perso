@@ -5,10 +5,10 @@ slug = "In silico and statistical analyses of epigenomic data with UNIX and R"
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "In silico and statistical analyses of epigenomic data with UNIX and R"
+title = "Epigenomic data analysis with UNIX and R"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Hands-on training in ChIP-seq, ATAC-seq and MNase-seq analysis, from sequencing quality control to peak calling, normalization and functional interpretation."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "pay-937884_640.jpg"
@@ -30,9 +30,9 @@ image = "headers/bubbles-wide.jpg"
 +++
 
 
-To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by [Agrocampus Ouest](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staf in 2014 and organize since then 4 yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
+To support molecular and cell biologists in their quest for autonomy when dealing with bio-informatics, bio-statistics, genomics or systems biology, Pr Sandrine Lagarrigue - supported by [Agrocampus Ouest](http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/) - started offering a highly multidisciplinary and modular workshop dedicated to biologists ten years ago. I joined the teaching staff in 2014 and have since contributed to yearly training days on sequence bio-informatics and statistical analyses for genomic and epigenomic data.
 
-The workshop dedicated to ChIP-seq analysis address the following topics:
+The workshop dedicated to epigenomic data analysis addresses the following topics:
 
 * Introduction to epigenome screening technologies (ChIP-seq, ATAC-seq, MNase-seq ...)
 * Biases and noise in sequencing data
