@@ -36,4 +36,4 @@ publication_type = "-1"
 exclude_selected = true
 +++
 
-For the **complete publication record**, open the **Publications** page from the navigation menu.
+For the complete publication record, open the Publications page from the navigation menu.
