@@ -14,7 +14,7 @@ summary = "Developing ATAC-seq beyond chromatin accessibility into an all-in-one
 image_preview = "research-atacseq-egattaca.jpg"
 
 # Tags: can be used for filtering projects.
-tags = ["ATAC-seq", "Aging", "aging", "Cancer", "Functional genomics", "genomics", "Epigenomics", "Machine learning"]
+tags = ["ATAC-seq", "Aging", "Cancer", "Functional genomics", "Epigenomics", "Machine learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

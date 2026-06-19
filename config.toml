@@ -65,6 +65,16 @@ enableGitInfo = false
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Inserm - IRCM - Montpellier", url = "https://www.ircm.fr/crcm_en/" } ]
 
+  # Academic CV PDF available for download from the profile block.
+  cv_pdf = "files/Pierre-Francois_Roux_academic_CV.pdf"
+
+  # Logos displayed under the profile portrait.
+  profile_logos = [
+    { name = "IRCM", image = "logos/ircm.png", url = "https://www.ircm.fr/crcm_en/" },
+    { name = "Inserm", image = "logos/inserm.jpg", url = "https://www.inserm.fr/" },
+    { name = "Université de Montpellier", image = "logos/universite-montpellier.png", url = "https://www.umontpellier.fr/" }
+  ]
+
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "pierre-francois.roux@inserm.fr"

@@ -15,7 +15,7 @@ image_preview = "research-senescence-systems.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Cellular senescence", "senescence", "Aging", "aging", "Epigenetics", "Functional genomics", "genomics", "Systems biology"]
+tags = ["Cellular senescence", "Aging", "Epigenetics", "Functional genomics", "Systems biology"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -40,4 +40,3 @@ This work provided a dynamic view of senescence as a regulatory trajectory rathe
 This project shaped much of my current research program: understanding how metabolic states, chromatin organization and transcription factor networks cooperate to control cell fate decisions in aging and cancer.
 
 {{< figure src="/img/Figure_Senescence_project.png" title="Workflow for temporal multi-omic data integration." numbered="true" >}}
-

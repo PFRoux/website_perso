@@ -15,7 +15,7 @@ image_preview = "research-qtl-wgs.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["DNA-seq", "QTL mapping", "QTL", "GWAS", "Functional genomics", "genomics", "Quantitative genetics"]
+tags = ["DNA-seq", "QTL mapping", "GWAS", "Functional genomics", "Quantitative genetics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

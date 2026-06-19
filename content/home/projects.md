@@ -34,7 +34,7 @@ filter_default = 0
 
 [[filter]]
   name = "Senescence"
-  tag = ".senescence"
+  tag = ".cellular-senescence"
 
 [[filter]]
   name = "Aging"
@@ -42,11 +42,11 @@ filter_default = 0
   
 [[filter]]
   name = "Functional genomics"
-  tag = ".genomics"
+  tag = ".functional-genomics"
 
 [[filter]]
   name = "Skin biology"
-  tag = ".skin"
+  tag = ".skin-biology"
   
 +++
 

@@ -117,3 +117,39 @@ a:hover {
     font-size: 0.78rem;
     line-height: 1.35;
 }
+
+/* Profile CV and institutional logos */
+
+.profile-actions {
+    margin: 1rem 0 0.75rem;
+    text-align: center;
+}
+
+.profile-actions .btn {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+}
+
+.profile-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+    margin: 0.25rem auto 1rem;
+    max-width: 285px;
+}
+
+.profile-logos a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-logos img {
+    max-width: 88px;
+    max-height: 42px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}

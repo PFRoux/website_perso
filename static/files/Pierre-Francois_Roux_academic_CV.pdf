@@ -1,0 +1,151 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5096 >>
+stream
+BT
+0.000 0.318 0.565 rg /F2 22 Tf 46 790 Td (Pierre-Francois Roux) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 761 Td (PhD in Genetics and Genomics | IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 746 Td (pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 723 Td (RESEARCH PROFILE) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 705 Td (I study how metabolic states shape gene regulation, chromatin organization and cell fate decisions in) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 690 Td (  aging, cancer and skin biology. My work combines molecular and cellular biology with functional) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 675 Td (  genomics, multi-omics integration, bioinformatics and systems biology.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 652 Td (PROFESSIONAL EXPERIENCE) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F2 10 Tf 46 634 Td (2021-present - Research Scientist, Molecular Oncogenesis, IRCM - Inserm U1194, Montpellier.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 619 Td (p53-mediated metabolic reprogramming during cellular senescence and aging; integrative ATAC-seq,) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 604 Td (  CUT&RUN, RNA-seq and metabolomics approaches.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F2 10 Tf 46 589 Td (2019-2021 - Research Scientist, Upstream Skin Research & Innovation, Johnson & Johnson, Val-de-) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F2 10 Tf 46 574 Td (Reuil.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 559 Td (Integrative microbiome and metabolome approaches for skin physiology, aging and inflammatory risk.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F2 10 Tf 46 544 Td (2015-2019 - Postdoctoral Researcher, Institut Pasteur / Inserm U993, Paris.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 529 Td (Time-resolved multi-omic profiling of cellular senescence and regulatory network inference.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F2 10 Tf 46 514 Td (2011-2014 - PhD, INRAe - Institut Agro 1348 PEGASE, Rennes.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 499 Td (Whole-genome sequencing, quantitative genetics and RNA editing in complex metabolic traits.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 476 Td (EDUCATION) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 458 Td (2014 - PhD in Genetics and Genomics, Institut Agro Rennes-Angers.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 443 Td (2011 - MEng in Agronomical Science, Institut Agro Rennes-Angers.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 428 Td (2011 - MSc in Cell and Molecular Biology, Universite Rennes 1.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 413 Td (2009 - MSc in Environment and Oceanology, Universite Lille 1.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 390 Td (SELECTED RESEARCH CONTRIBUTIONS) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 372 Td (- Developed an integrative view of AP-1-driven enhancer remodeling during oncogene-induced) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 357 Td (  senescence.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 342 Td (- Established bulk ATAC-seq as a dual genetic and epigenetic assay for cancer and aging-related) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 327 Td (  molecular profiling.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 312 Td (- Investigated E4F1-mediated pyruvate metabolism as a link between p53 signaling, acetyl-CoA) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 297 Td (  production and chromatin regulation.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 282 Td (- Integrated skin microbiome and metabolome profiles to identify microbe-metabolite clusters) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 267 Td (  relevant to skin physiology.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 252 Td (- Combined QTL mapping, WGS, selection signatures and eQTL analyses to prioritize causal genes for) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 237 Td (  adiposity.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 214 Td (PUBLICATIONS & VALORIZATION) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 196 Td (24 original research articles, including 7 first or co-first author publications and 1) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 181 Td (  last/corresponding author publication.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 166 Td (2 review articles, 1 didactic article and 4 patents.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 151 Td (- Selected journals: NAR Genomics and Bioinformatics, Nature Communications, Nature Aging, Journal) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 136 Td (  of Investigative Dermatology, Nature Cell Biology, Nature, Cell, Cell Genomics.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 113 Td (TEACHING) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 95 Td (- Master 2 Biology-Health, Universite de Montpellier: molecular basis of cellular senescence and) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 80 Td (  aging.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 65 Td (- Institut Agro Rennes-Angers: RNA-seq, ChIP-seq, ATAC-seq, UNIX/R and genomic data analysis,) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 919 >>
+stream
+BT
+0.120 0.160 0.200 rg /F1 10 Tf 46 790 Td (  continuing education Omic & NGS, since 2014.) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 775 Td (- SIRIC Montpellier Cancer: ATAC-seq practical data analysis training, since 2025.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 752 Td (SUPERVISION) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 734 Td (- Co-supervision of 1 PhD student; supervision of 7 Master 2 internships and 2 Master 1 internships;) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 719 Td (  member of a PhD thesis committee.) Tj
+0 0 Td
+0.000 0.318 0.565 rg /F2 12 Tf 46 696 Td (RESEARCH THEMES) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 678 Td (Cellular senescence; aging; p53 biology; metabolism; epigenetics; functional genomics; ATAC-seq; RNA-) Tj
+0 0 Td
+0.120 0.160 0.200 rg /F1 10 Tf 46 663 Td (  seq; CUT&RUN; metabolomics; microbiome; systems biology; machine learning; quantitative genetics.) Tj
+ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000005550 00000 n 
+0000005686 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6656
+%%EOF
