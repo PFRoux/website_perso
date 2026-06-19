@@ -4,11 +4,11 @@ widget = "projects"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
-subtitle = ""
+title = "Research Projects"
+subtitle = "Three research threads linking multi-omic data, gene regulation and complex phenotypes."
 
 # Order that this section will appear in.
-weight = 50
+weight = 15
 
 # Content.
 # Display content from the following folder.
@@ -47,3 +47,4 @@ filter_default = 0
 +++
 
 
+My work connects experimental biology and computational analysis, from genome-wide assays to integrative models of regulatory networks.

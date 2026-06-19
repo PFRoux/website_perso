@@ -8,7 +8,7 @@ date = 2016-04-27T00:00:00
 title = "Combined DNA and RNA sequencing for RNA editing event discovery"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "A stringent DNA/RNA-seq framework to distinguish genuine RNA editing events from sequencing, mapping and biological noise."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "puzzle-2500333_640.jpg"

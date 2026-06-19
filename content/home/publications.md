@@ -5,14 +5,14 @@ widget = "publications"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Publications"
-subtitle = ""
+title = "Recent Publications"
+subtitle = "Latest peer-reviewed articles."
 
 # Order that this section will appear in.
-weight = 20
+weight = 30
 
 # Number of publications to list.
-count = 100
+count = 8
 
 # List format.
 #   0 = Simple
@@ -33,6 +33,7 @@ list_format = 3
 publication_type = "-1"
 
 # Exclude publications that are shown in the Selected Publications widget?
-exclude_selected = false
+exclude_selected = true
 +++
 
+For the complete publication record, open the Publications page from the navigation menu.

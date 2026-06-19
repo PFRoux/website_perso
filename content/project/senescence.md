@@ -8,7 +8,7 @@ date = 2018-04-27T00:00:00
 title = "Toward a systems view of cellular senescence"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Time-resolved multi-omic analyses of senescence to identify regulatory hierarchies, chromatin transitions and vulnerabilities in aging and cancer."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "Cellular_senescence.png"
@@ -36,7 +36,6 @@ Addressing these challenges will be critical to develop strategies for the speci
 Focusing so far on oncogene-induced senescence, we probe the evolution of fibroblasts experiencing senescence using genomic approach depicting altogether the histone modification landscape (ChIP-seq for H3K4me1, H3K4me3, H3K27ac, H3K27me3), the chromatin landscape (ATAC-seq), and the transcriptionnal landscape. To deal with the the temporal and multilevel complexity of the data generated, we developped a multi-omic integrative workflow implementing cuting edge approaches for epigenomic data integration, systems biology, dimensionality reduction and variable selection  (self-organizing maps, permutation entropy, chromatin state differential analysis, chromatin digital footprinting, sparse projection to latent structure discriminant analysis) summarized in the Figure 1. The information obtained can further being processed using networking approaches to understand the senescence transcriptomic dynamic in the light of epigenetic changes and transcription factor hierarchies.
 
 {{< figure src="/img/Figure_Senescence_project.png" title="Workflow for temporal multi-omic data integration." numbered="true" >}}
-
 
 
 

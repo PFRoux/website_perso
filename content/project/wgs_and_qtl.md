@@ -8,7 +8,7 @@ date = 2016-04-27T00:00:00
 title = "Integrating linkage analysis with whole genome sequencing to dissect complex phenotypes"
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Combining linkage mapping, whole-genome sequencing, selection signatures and expression QTLs to prioritize causal genes for complex traits."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "dna-1903318_640.jpg"
@@ -36,4 +36,3 @@ To overcome these limitations, in collaboration with [Simon Boitard](https://gen
 {{< figure src="/img/Figure_QTL_project.jpg" title="Overview of the strategy used to combine WGS and QTL mapping. QTL: quantitative trait locus; cis-eQTL: QTL for gene expression and acting in cis; ASE: allele-specific expression; VeP: Variant Effect Predictor tool from the Ensembl API; NGS-SNP: variant annotation tool; GWAS: genome-wide association study; HMDP: Hybrid Mouse Diversity Panel." numbered="true" >}}
 
 [^1]: For more details on hapFLK method, please refer to [Fariello et al. 2013](http://www.genetics.org/content/early/2013/01/07/genetics.112.147231)
-

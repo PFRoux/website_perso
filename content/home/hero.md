@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
 
-title = "Easy as ATCG"
+title = "Functional genomics of metabolism, epigenetics and cell fate"
 
 # Order that this section will appear in.
 weight = 3
@@ -24,3 +24,4 @@ weight = 3
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
+I combine molecular biology, genomics and computational modelling to understand how metabolic states shape transcriptional and epigenetic programs in senescence, cancer and skin physiology.
