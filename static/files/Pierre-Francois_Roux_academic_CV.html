@@ -4,171 +4,791 @@
   <meta charset="utf-8">
   <title>Pierre-Francois Roux - Academic CV</title>
   <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      color: #1f2933;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 10.5px;
-      line-height: 1.38;
-      margin: 32px 42px;
+      background: #f1f1f1;
+      color: #303030;
+      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+      margin: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
-    h1 {
-      color: #005190;
-      font-size: 24px;
-      margin: 0 0 4px;
+
+    .page {
+      background: #fff;
+      display: grid;
+      grid-template-columns: 58mm 1fr;
+      height: 297mm;
+      margin: 0 auto;
+      overflow: hidden;
+      page-break-after: always;
+      width: 210mm;
     }
-    h2 {
-      border-bottom: 1px solid #d7dde3;
-      color: #005190;
+
+    .page:last-child {
+      page-break-after: auto;
+    }
+
+    .sidebar {
+      background: #555;
+      color: #f7f7f7;
+      padding: 12mm 6mm 10mm;
+    }
+
+    .portrait {
+      border: 1px solid rgba(255, 255, 255, 0.75);
+      border-radius: 50%;
+      display: block;
+      height: 38mm;
+      margin: 0 auto 11mm;
+      object-fit: cover;
+      width: 38mm;
+    }
+
+    .side-title {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.38);
       font-size: 13px;
-      margin: 16px 0 7px;
-      padding-bottom: 3px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      margin: 0 0 7mm;
+      padding: 0 0 4mm;
       text-transform: uppercase;
     }
+
+    .side-block {
+      margin: 0 0 10mm;
+    }
+
+    .side-item {
+      margin: 0 0 5.5mm;
+      padding-left: 8mm;
+      position: relative;
+    }
+
+    .side-icon {
+      color: #f58220;
+      font-size: 14px;
+      left: 0;
+      position: absolute;
+      top: 0.2mm;
+    }
+
+    .side-label {
+      color: #fff;
+      display: block;
+      font-size: 9.7px;
+      font-weight: 600;
+      line-height: 1.18;
+    }
+
+    .side-text,
+    .side-text a {
+      color: #d8d8d8;
+      font-size: 8.1px;
+      line-height: 1.28;
+      text-decoration: none;
+    }
+
+    .reference {
+      margin-bottom: 4mm;
+    }
+
+    .reference strong {
+      color: #fff;
+      display: block;
+      font-size: 8.4px;
+      font-weight: 600;
+    }
+
+    .reference span {
+      color: #d8d8d8;
+      display: block;
+      font-size: 7.1px;
+      line-height: 1.2;
+    }
+
+    .content {
+      padding: 9mm 9mm 8mm 7mm;
+    }
+
+    h1 {
+      color: #262626;
+      font-size: 28px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 1;
+      margin: 0 0 4mm;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      border-bottom: 1px solid #777;
+      color: #3f3f3f;
+      font-size: 8.8px;
+      font-style: italic;
+      letter-spacing: 7px;
+      margin: 0 0 10mm;
+      padding: 0 0 6mm;
+      text-transform: uppercase;
+      word-spacing: 2px;
+    }
+
+    h2 {
+      border-top: 1px solid #a0a0a0;
+      color: #2c2c2c;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      line-height: 1;
+      margin: 7mm 0 4mm;
+      padding-top: 3.7mm;
+      text-transform: uppercase;
+    }
+
+    h2:first-of-type {
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
     h3 {
-      color: #263746;
-      font-size: 11px;
-      margin: 8px 0 2px;
-    }
-    p {
-      margin: 0 0 5px;
-    }
-    ul {
-      margin: 3px 0 7px 17px;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 2px;
-    }
-    .meta {
-      color: #4b5563;
+      color: #2a2a2a;
       font-size: 10px;
-      margin-bottom: 11px;
+      font-weight: 600;
+      line-height: 1.18;
+      margin: 0 0 1.2mm;
     }
+
+    p {
+      font-size: 7.2px;
+      line-height: 1.45;
+      margin: 0 0 2mm;
+    }
+
+    .lead {
+      color: #494949;
+      font-size: 8px;
+      line-height: 1.5;
+      margin-bottom: 4mm;
+    }
+
+    .timeline {
+      margin-left: 53mm;
+      position: relative;
+    }
+
+    .timeline::before {
+      background: #a0a0a0;
+      content: "";
+      left: -6mm;
+      position: absolute;
+      top: 2mm;
+      bottom: 1mm;
+      width: 0.45mm;
+    }
+
+    .timeline-item {
+      margin-bottom: 4.2mm;
+      min-height: 21mm;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      background: #f58220;
+      border: 0.7mm solid #555;
+      border-radius: 50%;
+      content: "";
+      height: 3.4mm;
+      left: -7.5mm;
+      position: absolute;
+      top: 0.8mm;
+      width: 3.4mm;
+    }
+
+    .timeline-left {
+      left: -53mm;
+      padding-right: 8mm;
+      position: absolute;
+      text-align: right;
+      top: -0.6mm;
+      width: 47mm;
+    }
+
+    .timeline-org {
+      color: #242424;
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.06;
+    }
+
+    .timeline-meta {
+      color: #303030;
+      display: block;
+      font-size: 6.5px;
+      font-style: italic;
+      line-height: 1.16;
+      margin-top: 1mm;
+    }
+
+    .timeline-date {
+      color: #777;
+      display: block;
+      font-size: 10px;
+      line-height: 1.1;
+      margin-top: 1mm;
+    }
+
+    .timeline-body {
+      padding-left: 4mm;
+    }
+
     .role {
-      color: #374151;
-      font-weight: bold;
+      color: #252525;
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.08;
+      margin-bottom: 1mm;
     }
-    .date {
-      color: #6b7280;
-      font-weight: bold;
+
+    .subtitle {
+      color: #555;
+      display: block;
+      font-size: 7.8px;
+      line-height: 1.25;
+      margin-bottom: 2mm;
     }
-    .compact li {
-      margin-bottom: 1px;
+
+    .grid-2 {
+      display: grid;
+      gap: 5mm;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-3 {
+      display: grid;
+      gap: 5mm;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills-grid {
+      gap: 3.5mm;
+      grid-template-columns: 1fr 1.08fr 0.78fr;
+    }
+
+    .chips {
+      align-content: start;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5mm;
+      justify-content: center;
+      margin-top: 1mm;
+    }
+
+    .chip {
+      border: 1.1px solid #f58220;
+      border-radius: 2.5mm;
+      color: #4c4c4c;
+      font-size: 7.6px;
+      line-height: 1;
+      padding: 1.1mm 1.8mm;
+    }
+
+    .rating-row {
+      align-items: center;
+      display: grid;
+      gap: 2mm;
+      grid-template-columns: 22mm 1fr;
+      margin-bottom: 1.2mm;
+    }
+
+    .rating-label {
+      color: #555;
+      font-size: 6.8px;
+      text-align: right;
+    }
+
+    .dots {
+      white-space: nowrap;
+    }
+
+    .dot {
+      border: 0.5px solid #777;
+      border-radius: 50%;
+      display: inline-block;
+      height: 2.75mm;
+      margin-right: 0.45mm;
+      width: 2.75mm;
+    }
+
+    .dot.filled {
+      background: #f58220;
+      border-color: #8a8a8a;
+    }
+
+    .language {
+      align-items: center;
+      border: 1.2mm solid #f58220;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      height: 18mm;
+      justify-content: center;
+      margin: 0 auto 3mm;
+      width: 18mm;
+    }
+
+    .language strong {
+      color: #333;
+      font-size: 8px;
+      font-weight: 500;
+    }
+
+    .language span {
+      color: #777;
+      font-size: 5.5px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 4mm;
+    }
+
+    li {
+      font-size: 7.1px;
+      line-height: 1.35;
+      margin: 0 0 1.6mm;
+    }
+
+    .compact-list li {
+      margin-bottom: 1.1mm;
+    }
+
+    .publication {
+      margin-bottom: 2.7mm;
+    }
+
+    .publication-title {
+      color: #242424;
+      display: block;
+      font-size: 7.4px;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    .publication-meta {
+      color: #555;
+      display: block;
+      font-size: 6.7px;
+      line-height: 1.25;
+    }
+
+    .mini-card {
+      border-left: 1.1mm solid #f58220;
+      margin-bottom: 3mm;
+      padding-left: 3mm;
+    }
+
+    .mini-card-title {
+      color: #2f2f2f;
+      display: block;
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    .mini-card-text {
+      color: #555;
+      display: block;
+      font-size: 6.8px;
+      line-height: 1.35;
+    }
+
+    .page-number {
+      bottom: 5mm;
+      color: #aaa;
+      font-size: 6px;
+      position: absolute;
+      right: 8mm;
+    }
+
+    .content-wrap {
+      position: relative;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Pierre-Francois Roux</h1>
-  <p class="meta">
-    Epigeneticist &amp; in silico biologist | PhD in Genetics and Genomics | Qualified in CNU sections 64 and 65<br>
-    IRCM - Inserm U1194, Molecular Oncogenesis, Montpellier, France<br>
-    pierre-francois.roux@inserm.fr | www.pierre-francois-roux.com | ORCID: 0000-0002-7047-2437
-  </p>
+  <section class="page">
+    <aside class="sidebar">
+      <img class="portrait" src="../img/portrait.png" alt="Pierre-Francois Roux">
 
-  <h2>Research Profile</h2>
-  <p>I study how metabolic states shape gene regulation, chromatin organization and cell fate decisions in aging, cancer and skin biology. My work combines experimental molecular biology, functional genomics, multi-omics integration, bioinformatics, systems biology and machine-learning approaches. My current research focuses on p53/E4F1-mediated metabolic-epigenetic coupling during senescence and on ATAC-seq-derived signatures of aging, frailty and tumor evolution.</p>
+      <div class="side-block">
+        <div class="side-title">Info</div>
+        <div class="side-item">
+          <span class="side-icon">⌖</span>
+          <span class="side-label">Address</span>
+          <span class="side-text">IRCM - Inserm U1194<br>208 avenue des Apothicaires<br>34298 Montpellier cedex 5<br>France</span>
+        </div>
+        <div class="side-item">
+          <span class="side-icon">✉</span>
+          <span class="side-label">Email</span>
+          <span class="side-text">pierre-francois.roux@inserm.fr</span>
+        </div>
+        <div class="side-item">
+          <span class="side-icon">◎</span>
+          <span class="side-label">ORCID</span>
+          <span class="side-text">0000-0002-7047-2437</span>
+        </div>
+      </div>
 
-  <h2>Professional Experience</h2>
-  <p><span class="date">2021-present</span> <span class="role">Research Scientist, Molecular Oncogenesis, IRCM - Inserm U1194, Montpellier.</span><br>
-  PI: Dr Laurent Le Cam. Ex vivo and in vitro analysis of p53-dependent epigenetic and metabolic reprogramming during senescence and aging, with emphasis on E4F1-mediated regulation of acetyl-CoA synthesis, chromatin remodeling and senescence programs. Approaches include ATAC-seq, CUT&amp;RUN, RNA-seq, metabolomics, cell models and in vivo aging models.</p>
-  <p><span class="date">2019-2021</span> <span class="role">Research Scientist, Upstream Skin Research &amp; Innovation, Johnson &amp; Johnson, Val-de-Reuil.</span><br>
-  PIs: Dr Georgios Stamatas and Dr Thierry Oddos. Pre-clinical and clinical skin biology research based on multi-omics cohorts, integrating microbiome, metabolome, transcriptome and phenome data to study skin maturation, barrier function, inflammatory risk and translational biomarkers.</p>
-  <p><span class="date">2015-2019</span> <span class="role">Postdoctoral Researcher, Nuclear Organization and Oncogenesis, Institut Pasteur / Inserm U993, Paris.</span><br>
-  PIs: Dr Anne Dejean and Dr Oliver Bischof. Multidimensional and temporal profiling of transcriptome and epigenome organization during cellular senescence in human fibroblasts exposed to distinct stresses and environments, using ATAC-seq, ChIP-seq, transcriptomics, metabolomics, proteomics and network inference.</p>
-  <p><span class="date">2011-2014</span> <span class="role">PhD, Genetics and Genomics, INRAe - Institut Agro 1348 PEGASE, Rennes.</span><br>
-  PIs: Prof Sandrine Lagarrigue and Dr Olivier Demeure. Detection of genome-scale single nucleotide polymorphisms for genetic dissection of complex traits and characterization of editomes, combining RNA-seq, whole-genome resequencing, QTL fine mapping, cis-eQTL analysis and variant annotation.</p>
-  <p><span class="date">2010</span> <span class="role">MEng trainee, IRSET, Rennes.</span><br>
-  PI: Dr Corine Martin-Chouly. Characterization of lipid metabolism, lipidome and cytokine responses in primary macrophages from patients with cystic fibrosis during inflammatory and infectious contexts.</p>
-  <p><span class="date">2009</span> <span class="role">MSc trainee, UQAM BioMed, Montreal.</span><br>
-  PIs: Prof Catherine Mounier and Dr Daniel Mauvoisin. Study of the role of Stearoyl-CoA Desaturase 1 in adipocyte maturation using stable knock-down in murine pre-adipocytes.</p>
+      <div class="side-block">
+        <div class="side-title">Social</div>
+        <div class="side-item">
+          <span class="side-label">Website</span>
+          <span class="side-text">www.pierre-francois-roux.com</span>
+        </div>
+        <div class="side-item">
+          <span class="side-label">GitHub</span>
+          <span class="side-text">PFRoux</span>
+        </div>
+        <div class="side-item">
+          <span class="side-label">LinkedIn</span>
+          <span class="side-text">Pierre-Francois Roux</span>
+        </div>
+        <div class="side-item">
+          <span class="side-label">ResearchGate</span>
+          <span class="side-text">Pierre-Francois Roux</span>
+        </div>
+      </div>
 
-  <h2>Education and Training</h2>
-  <ul class="compact">
-    <li><strong>2022</strong> Animal experimentation training, designer level, BioCampus Montpellier.</li>
-    <li><strong>2014</strong> PhD in Genetics and Genomics, Institut Agro Rennes-Angers.</li>
-    <li><strong>2011</strong> MEng in Agronomical Science, Institut Agro Rennes-Angers.</li>
-    <li><strong>2011</strong> MSc in Cell and Molecular Biology, Universite Rennes 1.</li>
-    <li><strong>2009</strong> MSc in Marine Biology and Biological Oceanography, Universite Lille 1.</li>
-    <li><strong>2008</strong> BSc in Biology of Organisms and Populations, Universite Lille.</li>
-    <li><strong>2004-2006</strong> French CPGE BCPST-Veto, Lycee Albert Chatelet.</li>
-  </ul>
+      <div class="side-block">
+        <div class="side-title">Reference</div>
+        <div class="reference">
+          <strong>Dr Laurent Le Cam</strong>
+          <span>IRCM - Inserm U1194</span>
+          <span>laurent.lecam@inserm.fr</span>
+        </div>
+        <div class="reference">
+          <strong>Pr Anne Dejean</strong>
+          <span>Institut Pasteur</span>
+          <span>adejean@pasteur.fr</span>
+        </div>
+        <div class="reference">
+          <strong>Pr Sandrine Lagarrigue</strong>
+          <span>Institut Agro Rennes-Angers</span>
+          <span>slagarrigue@agrocampus-ouest.fr</span>
+        </div>
+      </div>
+    </aside>
 
-  <h2>Research Contributions</h2>
-  <ul>
-    <li><strong>p53/E4F1, metabolism and senescence:</strong> investigated how E4F1 connects p53/pRB signaling, pyruvate metabolism, acetyl-CoA production and chromatin regulation during senescence.</li>
-    <li><strong>ATAC-seq as an integrative assay:</strong> established bulk ATAC-seq as a dual genetic and epigenetic platform capturing chromatin accessibility, variants, CNVs, mitochondrial features and telomere-associated signals.</li>
-    <li><strong>Systems view of senescence:</strong> developed temporal multi-omic analyses identifying enhancer remodeling and AP-1-centered regulatory circuits as key determinants of oncogene-induced senescence.</li>
-    <li><strong>Skin microbiome and metabolome:</strong> integrated microbiome and metabolome profiles to identify microbe-metabolite clusters relevant to skin physiology and early-life skin maturation.</li>
-    <li><strong>Quantitative genetics:</strong> combined QTL mapping, WGS, selection signatures, variant annotation and eQTL analyses to prioritize causal genes for adiposity and energy metabolism.</li>
-    <li><strong>RNA editing:</strong> developed stringent WGS/RNA-seq strategies to distinguish genuine RNA editing events from sequencing and mapping artifacts.</li>
-  </ul>
+    <main class="content content-wrap">
+      <h1>Pierre-Francois Roux</h1>
+      <div class="tagline">Epigeneticist &amp; in silico biologist</div>
 
-  <h2>Publications and Valorization</h2>
-  <ul>
-    <li>24 original research articles, including 7 first or co-first author publications and 1 last/corresponding author publication.</li>
-    <li>2 review articles, 1 didactic article, 1 radio communication and 4 patents.</li>
-    <li>Major journals include NAR Genomics and Bioinformatics, Nature Communications, Nature Aging, Journal of Investigative Dermatology, Nature Cell Biology, Nature, Cell and Cell Genomics.</li>
-  </ul>
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="timeline-org">IRCM - Inserm U1194</span>
+            <span class="timeline-meta">Molecular Oncogenesis<br>PI: Dr Laurent Le Cam<br>Montpellier, France</span>
+            <span class="timeline-date">2021-Present</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">Research scientist</span>
+            <span class="subtitle">p53-dependent epigenetic and metabolic reprogramming during senescence and aging</span>
+            <p>Study of E4F1-mediated acetyl-CoA synthesis, chromatin remodeling and senescence programs using ATAC-seq, CUT&amp;RUN, RNA-seq, metabolomics, cellular models and in vivo aging models.</p>
+          </div>
+        </div>
 
-  <h2>Selected Publications</h2>
-  <ul>
-    <li>Toumi I., Kham C., Stuani L., Le Cam L., <strong>Roux P.F.</strong> Beyond chromatin accessibility: bulk ATAC-seq as an integrative assay to portray genomes and epigenomes. <em>NAR Genomics and Bioinformatics</em>, 2026. Last and corresponding author.</li>
-    <li>Di Michele M., Attina A., <strong>Roux P.F.</strong> et al. E4F1 coordinates pyruvate metabolism and the activity of the elongator complex to ensure translation fidelity during brain development. <em>Nature Communications</em>, 2025. Co-second author.</li>
-    <li>Guerrero A. et al. 3-Deazaadenosine alleviates senescence to promote cellular fitness and cell therapy efficiency in mice. <em>Nature Aging</em>, 2022.</li>
-    <li><strong>Roux P.F.</strong>, Oddos T., Stamatas G. Deciphering the role of skin surface microbiome on skin health: an integrative multi-omics approach reveals three microbial/metabolic clusters. <em>Journal of Investigative Dermatology</em>, 2021. First author.</li>
-    <li>Martinez-Zamudio R.I., <strong>Roux P.F.</strong> et al. AP-1 imprints a reversible transcriptional programme of senescent cells. <em>Nature Cell Biology</em>, 2020. Co-first author.</li>
-    <li>Heinzmann F. et al. Necroptosis microenvironment determines lineage commitment in liver cancer. <em>Nature</em>, 2018.</li>
-    <li>Martinez-Zamudio R.I., Robinson L., <strong>Roux P.F.</strong>, Bischof O. Snapshot: cellular senescence pathways / in pathophysiology. <em>Cell</em>, 2017.</li>
-    <li><strong>Roux P.F.</strong> et al. Combined QTL and selective sweep mappings with coding SNP annotation and cis-eQTL analysis revealed PARK2 and JAG2 as candidate genes for adiposity regulation. <em>G3</em>, 2015. First author.</li>
-  </ul>
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="timeline-org">Johnson &amp; Johnson</span>
+            <span class="timeline-meta">Upstream Skin Research &amp; Innovation<br>PI: Dr G. Stamatas &amp; Dr T. Oddos<br>Val-de-Reuil, France</span>
+            <span class="timeline-date">2019-2021</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">Research scientist</span>
+            <span class="subtitle">Integrative biology for skin research and innovation</span>
+            <p>Pre-clinical and clinical research on skin biology based on multi-omics cohorts integrating microbiome, metabolome, transcriptome and phenome data.</p>
+          </div>
+        </div>
 
-  <h2>Funding</h2>
-  <ul>
-    <li><strong>Submitted:</strong> ANR 2026 project on metabolism-epigenome interactions during cellular senescence and aging.</li>
-    <li><strong>Submitted:</strong> Canceropole Grand Sud-Ouest 2026 project on integrative tumor profiling by ATAC-seq for actionable signatures.</li>
-    <li><strong>Acquired:</strong> ANR 2019 S-ENCODE project on deciphering the senescence code to improve healthy lifespan.</li>
-  </ul>
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="timeline-org">Institut Pasteur</span>
+            <span class="timeline-meta">Nuclear Organization and Oncogenesis<br>PI: Dr Anne Dejean &amp; Dr Oliver Bischof<br>Paris, France</span>
+            <span class="timeline-date">2015-2019</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">Postdoctoral researcher</span>
+            <span class="subtitle">Temporal profiling of transcriptome and epigenome organization during cellular senescence</span>
+            <p>Multi-scale study of senescence in human fibroblasts using ATAC-seq, ChIP-seq, transcriptomics, metabolomics, proteomics and network inference.</p>
+          </div>
+        </div>
 
-  <h2>Teaching</h2>
-  <ul>
-    <li><strong>Since 2025 - SIRIC Montpellier Cancer:</strong> "Unlocking epigenomic insights: ATAC-seq data analysis in practice", practical training for cancer researchers and clinicians.</li>
-    <li><strong>Since 2021 - Universite de Montpellier:</strong> molecular basis of cellular senescence and aging; Master 2 Biology-Health students; lecture.</li>
-    <li><strong>Institut Agro Rennes-Angers / Agrocampus Ouest:</strong> ChIP-seq and ATAC-seq data analysis with UNIX and Bioconductor; RNA-seq processing with a reference genome; continuing education, lectures and practical work.</li>
-    <li><strong>Institut Agro Rennes-Angers / Agrocampus Ouest:</strong> methodologies for molecular and cell biology; high-throughput technologies for studying living systems; bioinformatics; MEng students, lectures and practical work.</li>
-    <li><strong>Universite Paris Diderot:</strong> epigenomics for cancer research and clinic; MD students, MSc students and health professionals.</li>
-    <li><strong>2012 - Universite Rennes 1:</strong> probing the transcriptome with microarrays; Master 1 Cell and Molecular Biology students; lecture and practical work.</li>
-  </ul>
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="timeline-org">INRAe</span>
+            <span class="timeline-meta">Genetics and Genomics<br>PI: Pr S. Lagarrigue &amp; Dr O. Demeure<br>Rennes, France</span>
+            <span class="timeline-date">2011-2014</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">PhD</span>
+            <span class="subtitle">Genome-scale SNP detection for complex traits and editome characterization</span>
+            <p>Integrative analysis of RNA-seq and genome resequencing data for QTL fine mapping, cis-eQTL analysis, allele-specific expression and RNA editing discovery.</p>
+          </div>
+        </div>
 
-  <h2>Supervision and Training</h2>
-  <ul>
-    <li>Co-supervision of 1 PhD student on aging, cellular senescence and metabolic adaptability.</li>
-    <li>Supervision of 7 Master 2 internships in bioinformatics, epigenomics, cancer biology and structural genomics.</li>
-    <li>Supervision of 2 Master 1 internships in molecular and cellular biology.</li>
-    <li>Member of a PhD thesis committee.</li>
-  </ul>
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="timeline-org">IRSET</span>
+            <span class="timeline-meta">Cellular Signaling &amp; Response<br>PI: Dr Corine Martin-Chouly<br>Rennes, France</span>
+            <span class="timeline-date">2010</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">MEng trainee</span>
+            <span class="subtitle">Lipid metabolism in macrophages during inflammation in cystic fibrosis</span>
+            <p>Characterization of lipidome and cytokine responses in primary macrophages during inflammatory and infectious contexts.</p>
+          </div>
+        </div>
+      </div>
 
-  <h2>Scientific Animation, Responsibilities and Service</h2>
-  <ul>
-    <li>Invited seminars on senescence systems biology and metabolic reprogramming at TOXALIM, IRCM and the London Institute of Medical Science - Imperial College.</li>
-    <li>Talks at international meetings including the International Cell Senescence Association, Plant and Animal Genetics, European Federation of Animal Science and European Symposium on Poultry Genetics.</li>
-    <li>Poster communications at Euro Geroscience, International Cell Senescence Association, AVIESAN modeling workshop, American Society of Human Genetics and European Federation of Animal Science.</li>
-    <li>Participation in conference organization, scientific events and collaborative research networks.</li>
-    <li>Editorial and peer-review activities for scientific journals.</li>
-    <li>Involvement in professional equality and mentoring actions, including Femmes &amp; Sciences mentoring.</li>
-  </ul>
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item" style="min-height:15mm">
+          <div class="timeline-left">
+            <span class="timeline-org">Agrocampus Ouest<br>&amp; Universite Rennes 1</span>
+            <span class="timeline-date">2009-2011</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">MEng <span class="subtitle" style="display:inline">in agricultural engineering</span></span>
+            <span class="role">MSc <span class="subtitle" style="display:inline">in cell and molecular biology</span></span>
+          </div>
+        </div>
+        <div class="timeline-item" style="min-height:15mm">
+          <div class="timeline-left">
+            <span class="timeline-org">Universite Lille 1</span>
+            <span class="timeline-date">2006-2009</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">MSc <span class="subtitle" style="display:inline">in marine biology and biological oceanography</span></span>
+            <span class="role">BSc <span class="subtitle" style="display:inline">in biology and ecology</span></span>
+          </div>
+        </div>
+        <div class="timeline-item" style="min-height:12mm">
+          <div class="timeline-left">
+            <span class="timeline-org">Lycee Albert Chatelet</span>
+            <span class="timeline-date">2004-2006</span>
+          </div>
+          <div class="timeline-body">
+            <span class="role">French CPGE <span class="subtitle" style="display:inline">BCPST-Veto</span></span>
+          </div>
+        </div>
+      </div>
 
-  <h2>Patents</h2>
-  <ul>
-    <li><strong>2022</strong> Biomarkers predictive of atopic dermatitis, JCO6146USPSP1, pending.</li>
-    <li><strong>2021</strong> Use of microbiome and metabolome clusters to evaluate skin health, US20220142560A1, published.</li>
-    <li><strong>2021</strong> Use of biomarkers to evaluate the efficacy of a composition reducing the effects of cancer therapeutics on skin, US20220057383A1, published.</li>
-    <li><strong>2021</strong> Non-invasive method to evaluate surface skin miRNome and transcriptome, EP21306470.2.</li>
-  </ul>
+      <h2>Skills - Tools - Languages</h2>
+      <div class="grid-3 skills-grid">
+        <div class="chips">
+          <span class="chip">Epigenomics</span><span class="chip">Genomics</span><span class="chip">Genetics</span>
+          <span class="chip">Aging</span><span class="chip">Cellular senescence</span><span class="chip">Systems biology</span>
+          <span class="chip">Cancer biology</span><span class="chip">Skin biology</span><span class="chip">NGS</span>
+        </div>
+        <div>
+          <div class="rating-row"><span class="rating-label">R</span><span class="dots"><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot"></i></span></div>
+          <div class="rating-row"><span class="rating-label">Biostatistics</span><span class="dots"><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></span></div>
+          <div class="rating-row"><span class="rating-label">Machine learning</span><span class="dots"><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></span></div>
+          <div class="rating-row"><span class="rating-label">UNIX</span><span class="dots"><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></span></div>
+          <div class="rating-row"><span class="rating-label">Bench work</span><span class="dots"><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot filled"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></span></div>
+        </div>
+        <div>
+          <div class="language"><strong>French</strong><span>Native</span></div>
+          <div class="language"><strong>English</strong><span>Fluent</span></div>
+        </div>
+      </div>
+    </main>
+  </section>
 
-  <h2>Technical Skills</h2>
-  <p>Epigenomics; genomics; genetics; aging; cellular senescence; cancer biology; skin biology; systems biology; RNA-seq; ATAC-seq; CUT&amp;RUN; ChIP-seq; MNase-seq; WGS; QTL mapping; cis-eQTL; metabolomics; microbiome profiling; UNIX; R/Bioconductor; reproducible workflows; multi-omics integration; network inference; dimensionality reduction; feature selection; machine learning; cell culture; primary cells; bench work; in vivo mouse models.</p>
+  <section class="page">
+    <aside class="sidebar">
+      <img class="portrait" src="../img/portrait.png" alt="Pierre-Francois Roux">
+      <div class="side-block">
+        <div class="side-title">Profile</div>
+        <p class="side-text">My research addresses how metabolic states shape gene regulation, chromatin organization and cell fate decisions in aging, cancer and skin biology.</p>
+      </div>
+      <div class="side-block">
+        <div class="side-title">Methods</div>
+        <div class="side-item"><span class="side-label">Functional genomics</span><span class="side-text">RNA-seq, ATAC-seq, ChIP-seq, CUT&amp;RUN, MNase-seq</span></div>
+        <div class="side-item"><span class="side-label">Integrative omics</span><span class="side-text">Metabolomics, microbiome profiling, transcriptomics, epigenomics</span></div>
+        <div class="side-item"><span class="side-label">Computational biology</span><span class="side-text">R/Bioconductor, UNIX, reproducible workflows, network inference</span></div>
+      </div>
+      <div class="side-block">
+        <div class="side-title">Topics</div>
+        <div class="side-item"><span class="side-text">Cellular senescence<br>Aging<br>p53/E4F1 metabolism<br>Chromatin regulation<br>Skin microbiome<br>Quantitative genetics<br>RNA editing</span></div>
+      </div>
+    </aside>
 
-  <h2>Languages</h2>
-  <p>French: native. English: fluent.</p>
+    <main class="content content-wrap">
+      <h1>Research</h1>
+      <div class="tagline">Contributions - publications - funding</div>
+
+      <h2>Research Contributions</h2>
+      <div class="grid-2">
+        <div class="mini-card"><span class="mini-card-title">p53/E4F1, metabolism and senescence</span><span class="mini-card-text">Dissection of links between p53/pRB signaling, pyruvate metabolism, acetyl-CoA production and chromatin regulation during senescence.</span></div>
+        <div class="mini-card"><span class="mini-card-title">ATAC-seq as an integrative assay</span><span class="mini-card-text">Development of bulk ATAC-seq as a dual genetic and epigenetic assay capturing accessibility, variants, CNVs, mitochondrial features and telomere-associated signals.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Systems view of senescence</span><span class="mini-card-text">Temporal multi-omic analyses identifying enhancer remodeling and AP-1-centered regulatory circuits as determinants of oncogene-induced senescence.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Skin microbiome and metabolome</span><span class="mini-card-text">Integration of microbiome and metabolome profiles to identify microbe-metabolite clusters relevant to skin physiology and early-life maturation.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Quantitative genetics</span><span class="mini-card-text">Combination of QTL mapping, WGS, selection signatures, variant annotation and eQTL analyses to prioritize causal genes for adiposity regulation.</span></div>
+        <div class="mini-card"><span class="mini-card-title">RNA editing</span><span class="mini-card-text">Stringent WGS/RNA-seq strategies to distinguish genuine RNA editing events from sequencing, mapping and reference artifacts.</span></div>
+      </div>
+
+      <h2>Publication Record</h2>
+      <div class="grid-3">
+        <div class="mini-card"><span class="mini-card-title">24 original articles</span><span class="mini-card-text">Including 7 first or co-first author publications and 1 last/corresponding author publication.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Reviews and outreach</span><span class="mini-card-text">2 review articles, 1 didactic article and 1 radio communication.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Valorization</span><span class="mini-card-text">4 patents in skin biology, microbiome/metabolome biomarkers and non-invasive molecular profiling.</span></div>
+      </div>
+
+      <h2>Selected Publications</h2>
+      <div class="publication">
+        <span class="publication-title">Beyond chromatin accessibility: bulk ATAC-seq as an integrative assay to portray genomes and epigenomes.</span>
+        <span class="publication-meta">Toumi I., Kham C., Stuani L., Le Cam L., Roux P.F. NAR Genomics and Bioinformatics, 2026. Last and corresponding author.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">E4F1 coordinates pyruvate metabolism and the activity of the elongator complex to ensure translation fidelity during brain development.</span>
+        <span class="publication-meta">Di Michele M., Attina A., Roux P.F. et al. Nature Communications, 2025. Co-second author.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">Skin maturation from birth to 10 years of age: structure, function, composition and microbiome.</span>
+        <span class="publication-meta">Stamatas G.N., Roux P.F. et al. Experimental Dermatology, 2023. Co-first author.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">Escape from oncogene-induced senescence is controlled by POU2F2 and memorized by chromatin scars.</span>
+        <span class="publication-meta">Martinez-Zamudio R.Y. et al. Cell Genomics, 2023.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">3-Deazaadenosine alleviates senescence to promote cellular fitness and cell therapy efficiency in mice.</span>
+        <span class="publication-meta">Guerrero A. et al. Nature Aging, 2022.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">Deciphering the role of skin surface microbiome on skin health: an integrative multi-omics approach reveals three microbial/metabolic clusters.</span>
+        <span class="publication-meta">Roux P.F., Oddos T., Stamatas G. Journal of Investigative Dermatology, 2021. First author.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">AP-1 imprints a reversible transcriptional programme of senescent cells.</span>
+        <span class="publication-meta">Martinez-Zamudio R.I., Roux P.F. et al. Nature Cell Biology, 2020. Co-first author.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">Necroptosis microenvironment determines lineage commitment in liver cancer.</span>
+        <span class="publication-meta">Heinzmann F. et al. Nature, 2018.</span>
+      </div>
+      <div class="publication">
+        <span class="publication-title">Combined QTL and selective sweep mappings with coding SNP annotation and cis-eQTL analysis revealed PARK2 and JAG2 as candidate genes for adiposity regulation.</span>
+        <span class="publication-meta">Roux P.F. et al. G3, 2015. First author.</span>
+      </div>
+
+      <h2>Funding</h2>
+      <div class="grid-3">
+        <div class="mini-card"><span class="mini-card-title">ANR 2026 - submitted</span><span class="mini-card-text">Metabolism-epigenome interactions during cellular senescence and aging.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Canceropole GSO 2026 - submitted</span><span class="mini-card-text">Integrative tumor profiling by ATAC-seq for actionable signatures.</span></div>
+        <div class="mini-card"><span class="mini-card-title">ANR 2019 - acquired</span><span class="mini-card-text">S-ENCODE project on deciphering the senescence code to improve healthy lifespan.</span></div>
+      </div>
+    </main>
+  </section>
+
+  <section class="page">
+    <aside class="sidebar">
+      <img class="portrait" src="../img/portrait.png" alt="Pierre-Francois Roux">
+      <div class="side-block">
+        <div class="side-title">Teaching</div>
+        <div class="side-item"><span class="side-label">Since 2025</span><span class="side-text">SIRIC Montpellier Cancer - ATAC-seq practical training</span></div>
+        <div class="side-item"><span class="side-label">Since 2021</span><span class="side-text">Universite de Montpellier - Master 2 Biology-Health</span></div>
+        <div class="side-item"><span class="side-label">Since 2014</span><span class="side-text">Institut Agro Rennes-Angers - Omics, UNIX/R and NGS training</span></div>
+      </div>
+      <div class="side-block">
+        <div class="side-title">Qualification</div>
+        <div class="side-item"><span class="side-label">CNU 64</span><span class="side-text">Biochemistry and molecular biology</span></div>
+        <div class="side-item"><span class="side-label">CNU 65</span><span class="side-text">Cell biology</span></div>
+      </div>
+      <div class="side-block">
+        <div class="side-title">Training</div>
+        <div class="side-item"><span class="side-label">2022</span><span class="side-text">Animal experimentation training, designer level, BioCampus Montpellier</span></div>
+      </div>
+    </aside>
+
+    <main class="content content-wrap">
+      <h1>Activities</h1>
+      <div class="tagline">Teaching - supervision - service</div>
+
+      <h2>Teaching</h2>
+      <div class="grid-2">
+        <div class="mini-card"><span class="mini-card-title">ATAC-seq data analysis in practice</span><span class="mini-card-text">SIRIC Montpellier Cancer, since 2025. Practical training for cancer researchers and clinicians.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Cellular senescence and aging</span><span class="mini-card-text">Universite de Montpellier, Master 2 Biology-Health, since 2021. Molecular basis of senescence, p53 biology, metabolism and aging-related pathophysiology.</span></div>
+        <div class="mini-card"><span class="mini-card-title">RNA-seq and epigenomic data analysis</span><span class="mini-card-text">Institut Agro Rennes-Angers / Agrocampus Ouest, since 2014. UNIX, R/Bioconductor, RNA-seq, ChIP-seq, ATAC-seq and genomic data analysis.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Cancer epigenomics</span><span class="mini-card-text">Universite Paris Diderot. Epigenomics for cancer research and clinic for MD students, MSc students and health professionals.</span></div>
+      </div>
+
+      <h2>Alumni And Supervision</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Former trainees</h3>
+          <ul class="compact-list">
+            <li>Chaimae Kam, Master 2 Structural Biology &amp; Genomics, 2025.</li>
+            <li>Alizee Lanon, Master 2 Bioinformatics and Biostatistics, 2024.</li>
+            <li>Arnaud Ferreira, Master 2 Epigenetics and Cellular Biology, 2023.</li>
+            <li>Safiya Atiya, Master 2 AMI2B, 2023.</li>
+            <li>Islem Toumi, Master 2 Structural Biology &amp; Genomics, 2023.</li>
+            <li>Pablo Garcia Idieder, Master 2 Cancer Biology, 2022.</li>
+            <li>Lisa Salhi, Master 2 Bioinformatics, 2019.</li>
+            <li>Camille Pere, Master 1 Cellular and Molecular Biology, 2014.</li>
+            <li>Emile Richard, Master 2 Bioinformatics &amp; Genomics, 2013.</li>
+            <li>Allan Jincq, Master 1 Cellular and Molecular Biology, 2012.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Doctoral supervision and committees</h3>
+          <ul class="compact-list">
+            <li>Arnaud Ferreira, PhD student, IRCM - Inserm U1194, 2023-2026. Impact of aging and cellular senescence on metabolic adaptability.</li>
+            <li>Alexis Hucteau, PhD thesis committee, Centre de Recherches en Cancerologie de Toulouse, 2021-2024.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Communications And Service</h2>
+      <div class="grid-2">
+        <div class="mini-card"><span class="mini-card-title">Invited seminars</span><span class="mini-card-text">Systems views of senescence and metabolic reprogramming at TOXALIM, IRCM and the London Institute of Medical Science - Imperial College.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Conference talks</span><span class="mini-card-text">International Cell Senescence Association, Plant and Animal Genetics, European Federation of Animal Science and European Symposium on Poultry Genetics.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Poster communications</span><span class="mini-card-text">Euro Geroscience, International Cell Senescence Association, AVIESAN modeling workshop, American Society of Human Genetics and EAAP.</span></div>
+        <div class="mini-card"><span class="mini-card-title">Service</span><span class="mini-card-text">Editorial and peer-review activities, scientific animation, collaborative networks, mentoring and professional equality actions.</span></div>
+      </div>
+
+      <h2>Patents</h2>
+      <ul>
+        <li>Biomarkers predictive of atopic dermatitis, JCO6146USPSP1, pending, 2022.</li>
+        <li>Use of microbiome and metabolome clusters to evaluate skin health, US20220142560A1, published, 2021.</li>
+        <li>Use of biomarkers to evaluate the efficacy of a composition reducing the effects of cancer therapeutics on skin, US20220057383A1, published, 2021.</li>
+        <li>Non-invasive method to evaluate surface skin miRNome and transcriptome, EP21306470.2, 2021.</li>
+      </ul>
+
+      <h2>Research Profile</h2>
+      <p class="lead">I combine experimental molecular biology, functional genomics, multi-omics integration and computational biology to understand how metabolic states translate into epigenetic and transcriptional programs that govern cell fate decisions in aging, cancer and skin biology.</p>
+    </main>
+  </section>
 </body>
 </html>
